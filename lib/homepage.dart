@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:untitled2/main.dart';
-import 'package:untitled2/widgets/custom_text_field.dart';
 import 'package:untitled2/widgets/lesson_card.dart';
 import 'package:untitled2/widgets/primary_button.dart';
 import 'package:untitled2/widgets/search_bar.dart';
