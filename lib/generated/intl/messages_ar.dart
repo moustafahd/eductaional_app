@@ -23,7 +23,11 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
     "courseSearch": MessageLookupByLibrary.simpleMessage("ابحث عن دورة"),
+    "discovreButton": MessageLookupByLibrary.simpleMessage(" دوراتنااكتشف"),
     "enrollButtton": MessageLookupByLibrary.simpleMessage("سجل الآن"),
+    "homeWidgetTitle": MessageLookupByLibrary.simpleMessage(
+      "أهلا بك!\nماذا تريد أن\nتتعلم اليوم؟",
+    ),
     "lessonDuration": MessageLookupByLibrary.simpleMessage("1 ساعة و 30 دقيقة"),
     "lessonTitle": MessageLookupByLibrary.simpleMessage(
       "الدرس الأول: مقدمة في عالم الذكاء الصناعي",

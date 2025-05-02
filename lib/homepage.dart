@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:untitled2/main.dart';
+import 'package:untitled2/widgets/home_widget.dart';
 import 'package:untitled2/widgets/lesson_card.dart';
 import 'package:untitled2/widgets/primary_button.dart';
 import 'package:untitled2/widgets/search_bar.dart';
@@ -48,6 +49,9 @@ class MyHomePage extends StatelessWidget {
               children: [
                 //SizedBox(height: 70,),
                 Searchbar(),
+                SizedBox(height: 20,),
+                HomeWidget(),
+                SizedBox(height: 20,),
                 //CustomTextField(),
                 ...List.generate(20, (index) => LessonCard(S.of(context).lessonTitle, S.of(context).lessonDuration)),
                 

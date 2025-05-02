@@ -89,6 +89,26 @@ class S {
       args: [],
     );
   }
+
+  /// `What do you\nwant to learn \nToday?`
+  String get homeWidgetTitle {
+    return Intl.message(
+      'What do you\nwant to learn \nToday?',
+      name: 'homeWidgetTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Discover courses`
+  String get discovreButton {
+    return Intl.message(
+      'Discover courses',
+      name: 'discovreButton',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
