@@ -109,6 +109,11 @@ class S {
       args: [],
     );
   }
+
+  /// `Home Page`
+  String get homePageTitle {
+    return Intl.message('Home Page', name: 'homePageTitle', desc: '', args: []);
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

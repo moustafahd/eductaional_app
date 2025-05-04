@@ -25,6 +25,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "courseSearch": MessageLookupByLibrary.simpleMessage("Search for a course"),
     "discovreButton": MessageLookupByLibrary.simpleMessage("Discover courses"),
     "enrollButtton": MessageLookupByLibrary.simpleMessage("Enroll now"),
+    "homePageTitle": MessageLookupByLibrary.simpleMessage("Home Page"),
     "homeWidgetTitle": MessageLookupByLibrary.simpleMessage(
       "What do you\nwant to learn \nToday?",
     ),
