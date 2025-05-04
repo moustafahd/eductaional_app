@@ -6,4 +6,5 @@ void main() {
   runApp( EducationalApp(
     appRouter: AppRouter(),
   ));
+
 }

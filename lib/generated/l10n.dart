@@ -110,6 +110,7 @@ class S {
     );
   }
 
+
   /// `Home Page`
   String get homePageTitle {
     return Intl.message('Home Page', name: 'homePageTitle', desc: '', args: []);
