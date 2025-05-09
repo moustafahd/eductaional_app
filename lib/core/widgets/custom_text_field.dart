@@ -24,27 +24,26 @@ class CustomTextField extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Container(
-          margin: const EdgeInsets.symmetric(vertical: 15),
-          height: 55.h,
-          decoration: BoxDecoration(
-            color: ColorManager.lightGrey,
-            borderRadius: circularBorder(10),
-          ),
-        
-          child: TextFormField(
-            decoration: InputDecoration(
-              hintStyle: TextStyles.font16GreyRegular,
-              contentPadding: EdgeInsets.all(16.r),
-              hintText: hintText,
-              border: InputBorder.none,
-              suffixIcon: suffixIcon,
+        TextFormField(
+          controller: controller,
+          decoration: InputDecoration(
+            hintStyle: TextStyles.font16GreyRegular,
+            contentPadding: EdgeInsets.all(16.r),
+            hintText: hintText,
+            border: OutlineInputBorder(
+              borderRadius: circularBorder(10),
+              borderSide: BorderSide.none
             ),
-            obscureText: isObscureText ?? false,
-            validator: (value) {
-              return validator(value);
-            },
+            suffixIcon: suffixIcon,
+            suffixIconColor: ColorManager.grey,
+            filled: true,
+            fillColor: ColorManager.lightGrey,
+            
           ),
+          obscureText: isObscureText ?? false,
+          validator: (value) {
+            return validator(value);
+          },
         ),
       ],
     );
