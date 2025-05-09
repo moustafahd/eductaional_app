@@ -6,5 +6,22 @@
     "enrollButtton" : "Enroll now",
     "homeWidgetTitle" : "What do you\nwant to learn \nToday?",
     "discovreButton" : "Discover courses",
-    "homePageTitle" : "Home Page"
+    "homePageTitle" : "Home Page",
+
+
+    "welcomeBack" : "Welcome back!",
+    "loginDescription" : "We're excited to have you back, can't wait to see what you've been up to since you last logged in.",
+    "skipLogin" : "Skip",
+    "emailHint" : "Enter your email",
+    "passwordHint" : "Enter your password",
+    "forgotPassword" : "Forgot password?",
+    "forgotPasswordDescription" : "At our app, we take the security of your information seriously.",
+
+    "createAccount" : "Create account",
+    "registerDescription" : "Sign up now and start exploring all that our app has to offer. We're excited to welcome you to our community!",
+
+
+
+
+    "submit" : "Submit"
 }

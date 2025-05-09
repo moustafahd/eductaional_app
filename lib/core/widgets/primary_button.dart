@@ -5,32 +5,32 @@ import 'package:untitled2/core/theming/colors.dart';
 import 'package:untitled2/core/theming/styles.dart';
 
 class PrimaryButton extends StatelessWidget {
-  final String text;
+  final String buttonText;
   final VoidCallback onPressed;
-  const PrimaryButton({super.key, required this.text, required this.onPressed});
+  final bool? isLoading;
+  const PrimaryButton({
+    super.key,
+    required this.buttonText,
+    required this.onPressed,  this.isLoading,
+  });
 
   @override
   Widget build(BuildContext context) {
-    return Positioned(
-      left: 14.w,
-      right: 14.w,
-      bottom: 24.h,
-      child: DecoratedBox(
-        decoration: BoxDecoration(
-          boxShadow: [
-            ShadowStyles.blueShadow3Down15Radius,
-            ShadowStyles.whiteShadow12Up20Radius,
-          ],
+    return DecoratedBox(
+      decoration: BoxDecoration(
+        boxShadow: [
+          ShadowStyles.blueShadow3Down15Radius,
+          ShadowStyles.whiteShadow12Up20Radius,
+        ],
+      ),
+      child: ElevatedButton(
+        onPressed: onPressed,
+        style: ElevatedButton.styleFrom(
+          backgroundColor: ColorManager.mainBlue,
+          minimumSize: Size(double.infinity, 55.h),
+          shape: RoundedRectangleBorder(borderRadius: circularBorder(8)),
         ),
-        child: ElevatedButton(
-          onPressed: onPressed,
-          style: ElevatedButton.styleFrom(
-            backgroundColor: ColorManager.mainBlue,
-            minimumSize: Size(double.infinity, 55.h),
-            shape: RoundedRectangleBorder(borderRadius: circularBorder(8)),
-          ),
-          child: Text(text, style: TextStyles.font16WhiteMedium),
-        ),
+        child: Text(buttonText, style: TextStyles.font16WhiteMedium),
       ),
     );
   }

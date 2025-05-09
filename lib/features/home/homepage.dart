@@ -23,7 +23,7 @@ class MyHomePage extends StatelessWidget {
               padding: EdgeInsets.only(left: 14.w, right: 14.w),
               child: Column(
                 children: [
-                  CustomAppBar(title: S.of(context).homePageTitle,),
+                  CustomAppBar(title: S.of(context).homePageTitle),
                   SizedBox(height: 18.h),
                   Searchbar(),
                   SizedBox(height: 18.h),
@@ -33,6 +33,7 @@ class MyHomePage extends StatelessWidget {
                   ...List.generate(
                     20,
                     (index) => LessonCard(
+                      
                       S.of(context).lessonTitle,
                       S.of(context).lessonDuration,
                     ),
@@ -40,9 +41,17 @@ class MyHomePage extends StatelessWidget {
                 ],
               ),
             ),
-            PrimaryButton(text: S.of(context).enrollButtton, onPressed: () {
-              context.pushNamed(Routes.login);
-            }),
+            Positioned(
+              left: 14.w,
+              right: 14.w,
+              bottom: 24.h,
+              child: PrimaryButton(
+                buttonText: S.of(context).enrollButtton,
+                onPressed: () {
+                  context.pushNamed(Routes.videoLesson);
+                },
+              ),
+            ),
           ],
         ),
       ),

@@ -3,30 +3,50 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:untitled2/core/helpers/helpers.dart';
 import 'package:untitled2/core/theming/colors.dart';
 import 'package:untitled2/core/theming/styles.dart';
-import 'package:untitled2/generated/l10n.dart';
 
 class CustomTextField extends StatelessWidget {
-  const CustomTextField({super.key});
+  final String hintText;
+  final TextEditingController? controller;
+  final Function(String?) validator;
+  final bool? isObscureText;
+  final Widget? suffixIcon;
+  const CustomTextField({
+    super.key,
+    required this.hintText,
+    this.isObscureText,
+    this.suffixIcon,
+    this.controller,
+    required this.validator,
+    //required this.validator,
+  });
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      margin: const EdgeInsets.fromLTRB(0, 7, 0, 7),
-      height: 50.h,
-      decoration: BoxDecoration(
-        color: ColorManager.lightGrey,
-        //color: Colors.grey.shade200,
-        borderRadius: circularBorder(10),
-      ),
-
-      child: TextField(
-        decoration: InputDecoration(
-          hintStyle: TextStyles.font16GreyRegular,
-          contentPadding: EdgeInsets.all(15),
-          hintText: S.of(context).courseSearch,
-          border: InputBorder.none,
+    return Column(
+      children: [
+        Container(
+          margin: const EdgeInsets.symmetric(vertical: 15),
+          height: 55.h,
+          decoration: BoxDecoration(
+            color: ColorManager.lightGrey,
+            borderRadius: circularBorder(10),
+          ),
+        
+          child: TextFormField(
+            decoration: InputDecoration(
+              hintStyle: TextStyles.font16GreyRegular,
+              contentPadding: EdgeInsets.all(16.r),
+              hintText: hintText,
+              border: InputBorder.none,
+              suffixIcon: suffixIcon,
+            ),
+            obscureText: isObscureText ?? false,
+            validator: (value) {
+              return validator(value);
+            },
+          ),
         ),
-      ),
+      ],
     );
   }
 }

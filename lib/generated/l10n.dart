@@ -114,6 +114,96 @@ class S {
   String get homePageTitle {
     return Intl.message('Home Page', name: 'homePageTitle', desc: '', args: []);
   }
+
+  /// `Welcome back!`
+  String get welcomeBack {
+    return Intl.message(
+      'Welcome back!',
+      name: 'welcomeBack',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `We're excited to have you back, can't wait to see what you've been up to since you last logged in.`
+  String get loginDescription {
+    return Intl.message(
+      'We\'re excited to have you back, can\'t wait to see what you\'ve been up to since you last logged in.',
+      name: 'loginDescription',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Skip`
+  String get skipLogin {
+    return Intl.message('Skip', name: 'skipLogin', desc: '', args: []);
+  }
+
+  /// `Enter your email`
+  String get emailHint {
+    return Intl.message(
+      'Enter your email',
+      name: 'emailHint',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your password`
+  String get passwordHint {
+    return Intl.message(
+      'Enter your password',
+      name: 'passwordHint',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forgot password?`
+  String get forgotPassword {
+    return Intl.message(
+      'Forgot password?',
+      name: 'forgotPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `At our app, we take the security of your information seriously.`
+  String get forgotPasswordDescription {
+    return Intl.message(
+      'At our app, we take the security of your information seriously.',
+      name: 'forgotPasswordDescription',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create account`
+  String get createAccount {
+    return Intl.message(
+      'Create account',
+      name: 'createAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sign up now and start exploring all that our app has to offer. We're excited to welcome you to our community!`
+  String get registerDescription {
+    return Intl.message(
+      'Sign up now and start exploring all that our app has to offer. We\'re excited to welcome you to our community!',
+      name: 'registerDescription',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Submit`
+  String get submit {
+    return Intl.message('Submit', name: 'submit', desc: '', args: []);
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

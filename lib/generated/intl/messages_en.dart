@@ -23,8 +23,14 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
     "courseSearch": MessageLookupByLibrary.simpleMessage("Search for a course"),
+    "createAccount": MessageLookupByLibrary.simpleMessage("Create account"),
     "discovreButton": MessageLookupByLibrary.simpleMessage("Discover courses"),
+    "emailHint": MessageLookupByLibrary.simpleMessage("Enter your email"),
     "enrollButtton": MessageLookupByLibrary.simpleMessage("Enroll now"),
+    "forgotPassword": MessageLookupByLibrary.simpleMessage("Forgot password?"),
+    "forgotPasswordDescription": MessageLookupByLibrary.simpleMessage(
+      "At our app, we take the security of your information seriously.",
+    ),
     "homePageTitle": MessageLookupByLibrary.simpleMessage("Home Page"),
     "homeWidgetTitle": MessageLookupByLibrary.simpleMessage(
       "What do you\nwant to learn \nToday?",
@@ -33,5 +39,15 @@ class MessageLookup extends MessageLookupByLibrary {
     "lessonTitle": MessageLookupByLibrary.simpleMessage(
       "First Lesson: introduction to artificial intelligence world from zero to hero 2025",
     ),
+    "loginDescription": MessageLookupByLibrary.simpleMessage(
+      "We\'re excited to have you back, can\'t wait to see what you\'ve been up to since you last logged in.",
+    ),
+    "passwordHint": MessageLookupByLibrary.simpleMessage("Enter your password"),
+    "registerDescription": MessageLookupByLibrary.simpleMessage(
+      "Sign up now and start exploring all that our app has to offer. We\'re excited to welcome you to our community!",
+    ),
+    "skipLogin": MessageLookupByLibrary.simpleMessage("Skip"),
+    "submit": MessageLookupByLibrary.simpleMessage("Submit"),
+    "welcomeBack": MessageLookupByLibrary.simpleMessage("Welcome back!"),
   };
 }

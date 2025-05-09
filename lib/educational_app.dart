@@ -6,7 +6,6 @@ import 'package:untitled2/core/routing/app_router.dart';
 import 'package:untitled2/core/routing/routes.dart';
 import 'package:untitled2/core/theming/colors.dart';
 import 'package:untitled2/generated/l10n.dart';
-import 'package:untitled2/features/home/homepage.dart';
 
 class EducationalApp extends StatelessWidget {
 
@@ -22,7 +21,7 @@ class EducationalApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         onGenerateRoute: appRouter.generateRoute,
-        initialRoute: Routes.home,
+        initialRoute: Routes.login,
         locale: const Locale('en'),
         localizationsDelegates: [
                   S.delegate,
@@ -36,7 +35,7 @@ class EducationalApp extends StatelessWidget {
           primaryColorLight: ColorManager.mainBlue,
           scaffoldBackgroundColor: ColorManager.white,
         ),
-        home: const MyHomePage(),
+        //home: const MyHomePage(),
       ),
     );
       

@@ -1,0 +1,7 @@
+targets:
+  $default:
+    builders:
+      freezed:
+        options:
+          when: true
+          map: true
