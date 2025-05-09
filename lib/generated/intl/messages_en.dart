@@ -27,10 +27,12 @@ class MessageLookup extends MessageLookupByLibrary {
     "discovreButton": MessageLookupByLibrary.simpleMessage("Discover courses"),
     "emailHint": MessageLookupByLibrary.simpleMessage("Enter your email"),
     "enrollButtton": MessageLookupByLibrary.simpleMessage("Enroll now"),
+
     "forgotPassword": MessageLookupByLibrary.simpleMessage("Forgot password?"),
     "forgotPasswordDescription": MessageLookupByLibrary.simpleMessage(
       "At our app, we take the security of your information seriously.",
     ),
+
     "homePageTitle": MessageLookupByLibrary.simpleMessage("Home Page"),
     "homeWidgetTitle": MessageLookupByLibrary.simpleMessage(
       "What do you\nwant to learn \nToday?",
