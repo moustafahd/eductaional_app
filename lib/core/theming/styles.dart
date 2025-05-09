@@ -35,6 +35,27 @@ class TextStyles {
     fontWeight: FontWeights.medium,
     color: ColorManager.white,
   );
+  
+  static TextStyle font26BlueSemiBold = TextStyle(
+    fontSize: 26.sp,
+    fontWeight: FontWeights.semiBold,
+    color: ColorManager.mainBlue,
+  );
+  static TextStyle font18BlueSemiBold = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: FontWeights.semiBold,
+    color: ColorManager.mainBlue,
+  );
+  static TextStyle font16BlueMedium = TextStyle(
+    fontSize: 16.sp,
+    fontWeight: FontWeights.medium,
+    color: ColorManager.mainBlue,
+  );
+  static TextStyle font14BlueMedium = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeights.medium,
+    color: ColorManager.mainBlue,
+  );
 }
 
 class ShadowStyles {

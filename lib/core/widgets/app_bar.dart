@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:untitled2/core/helpers/extensions.dart';
 import 'package:untitled2/core/helpers/helpers.dart';
 import 'package:untitled2/core/theming/colors.dart';
 import 'package:untitled2/core/theming/styles.dart';
@@ -12,14 +13,20 @@ class CustomAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Container(
-          height: 45.h,
-          width: 45.w,
-          decoration: BoxDecoration(
-            color: ColorManager.lightGrey,
-            borderRadius: circularBorder(10),
+        GestureDetector(
+          onTap: () {
+            context.pop();
+          },
+          child: Container(
+            height: 45.h,
+            width: 45.w,
+            
+            decoration: BoxDecoration(
+              color: ColorManager.lightGrey,
+              borderRadius: circularBorder(10),
+            ),
+            child: Icon(Icons.arrow_back_ios_new_rounded, size: 24.r, color: ColorManager.mainBlue),
           ),
-          child: Icon(Icons.arrow_back_ios_new_rounded, size: 24.r, color: ColorManager.mainBlue),
         ),
         Expanded(
           child: Center(
