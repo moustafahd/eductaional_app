@@ -27,12 +27,14 @@ class MessageLookup extends MessageLookupByLibrary {
     "discovreButton": MessageLookupByLibrary.simpleMessage("Discover courses"),
     "emailHint": MessageLookupByLibrary.simpleMessage("Enter your email"),
     "enrollButtton": MessageLookupByLibrary.simpleMessage("Enroll now"),
-
+    "fillProfile": MessageLookupByLibrary.simpleMessage("Fill Your Profile"),
+    "fillProfileDescription": MessageLookupByLibrary.simpleMessage(
+      "Please take a few minutes to fill out your profile with as much detail as possible.",
+    ),
     "forgotPassword": MessageLookupByLibrary.simpleMessage("Forgot password?"),
     "forgotPasswordDescription": MessageLookupByLibrary.simpleMessage(
       "At our app, we take the security of your information seriously.",
     ),
-
     "homePageTitle": MessageLookupByLibrary.simpleMessage("Home Page"),
     "homeWidgetTitle": MessageLookupByLibrary.simpleMessage(
       "What do you\nwant to learn \nToday?",
@@ -45,6 +47,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "We\'re excited to have you back, can\'t wait to see what you\'ve been up to since you last logged in.",
     ),
     "passwordHint": MessageLookupByLibrary.simpleMessage("Enter your password"),
+    "phoneNumberHint": MessageLookupByLibrary.simpleMessage(
+      "Enter your phone number",
+    ),
     "registerDescription": MessageLookupByLibrary.simpleMessage(
       "Sign up now and start exploring all that our app has to offer. We\'re excited to welcome you to our community!",
     ),

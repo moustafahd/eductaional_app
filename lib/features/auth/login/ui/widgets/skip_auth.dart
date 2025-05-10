@@ -4,8 +4,8 @@ import 'package:untitled2/core/routing/routes.dart';
 import 'package:untitled2/core/theming/styles.dart';
 import 'package:untitled2/generated/l10n.dart';
 
-class SkipLogin extends StatelessWidget {
-  const SkipLogin({super.key});
+class SkipAuth extends StatelessWidget {
+  const SkipAuth({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -110,7 +110,6 @@ class S {
     );
   }
 
-
   /// `Home Page`
   String get homePageTitle {
     return Intl.message('Home Page', name: 'homePageTitle', desc: '', args: []);
@@ -161,6 +160,16 @@ class S {
     );
   }
 
+  /// `Enter your phone number`
+  String get phoneNumberHint {
+    return Intl.message(
+      'Enter your phone number',
+      name: 'phoneNumberHint',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Forgot password?`
   String get forgotPassword {
     return Intl.message(
@@ -196,6 +205,26 @@ class S {
     return Intl.message(
       'Sign up now and start exploring all that our app has to offer. We\'re excited to welcome you to our community!',
       name: 'registerDescription',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Fill Your Profile`
+  String get fillProfile {
+    return Intl.message(
+      'Fill Your Profile',
+      name: 'fillProfile',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Please take a few minutes to fill out your profile with as much detail as possible.`
+  String get fillProfileDescription {
+    return Intl.message(
+      'Please take a few minutes to fill out your profile with as much detail as possible.',
+      name: 'fillProfileDescription',
       desc: '',
       args: [],
     );
