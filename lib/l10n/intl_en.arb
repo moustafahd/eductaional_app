@@ -15,11 +15,17 @@
     "skipLogin" : "Skip",
     "emailHint" : "Enter your email",
     "passwordHint" : "Enter your password",
+    "phoneNumberHint" : "Enter your phone number",
     "forgotPassword" : "Forgot password?",
     "forgotPasswordDescription" : "At our app, we take the security of your information seriously.",
 
+    
+    
     "createAccount" : "Create account",
     "registerDescription" : "Sign up now and start exploring all that our app has to offer. We're excited to welcome you to our community!",
+
+    "fillProfile" : "Fill Your Profile",
+    "fillProfileDescription" : "Please take a few minutes to fill out your profile with as much detail as possible.",
 
 
 

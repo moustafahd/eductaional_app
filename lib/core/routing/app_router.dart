@@ -6,6 +6,9 @@ import 'package:untitled2/features/auth/login/logic/cubit/login_cubit.dart';
 import 'package:untitled2/features/auth/login/ui/forgot_password.dart';
 import 'package:untitled2/features/auth/login/ui/login_screen.dart';
 import 'package:untitled2/features/auth/login/ui/widgets/terms_and_conditions_screen.dart';
+import 'package:untitled2/features/auth/register/logic/cubit/register_cubit.dart';
+import 'package:untitled2/features/auth/register/ui/fill_profile.dart';
+import 'package:untitled2/features/auth/register/ui/register_screen.dart';
 import 'package:untitled2/features/home/homepage.dart';
 import 'package:untitled2/features/home/video_lesson.dart';
 import 'package:untitled2/features/onboarding/onboarding_screen.dart';
@@ -13,6 +16,8 @@ import 'package:untitled2/features/profile/presentation/profile.dart';
 
 class AppRouter {
   Route generateRoute(RouteSettings settings) {
+    final arguments = settings.arguments;
+
     switch (settings.name) {
       case Routes.onBoarding:
         return MaterialPageRoute(builder: (_) => const OnboardingScreen());
@@ -21,13 +26,26 @@ class AppRouter {
           builder:
               (_) => BlocProvider(
                 create: (context) => getIt<LoginCubit>(),
-                child:  const LoginScreen(),
+                child: const LoginScreen(),
               ),
         );
       case Routes.termsConditions:
         return MaterialPageRoute(builder: (_) => const TermsConditionsPage());
       case Routes.forgotPassword:
         return MaterialPageRoute(builder: (_) => const ForgotPassword());
+      case Routes.register:
+        final type = arguments is String ? arguments : 'student';
+        return MaterialPageRoute(
+          builder:
+              (_) => BlocProvider(
+                create: (context) => getIt<RegisterCubit>(),
+                child: RegisterScreen(type: type),
+              ),
+        );
+      case Routes.fillProfile:
+        return MaterialPageRoute(
+          builder: (ctx) => const FillProfile(),
+              );
       case Routes.home:
         return MaterialPageRoute(builder: (_) => const MyHomePage());
       case Routes.videoLesson:

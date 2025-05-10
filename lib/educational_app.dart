@@ -35,7 +35,7 @@ class EducationalApp extends StatelessWidget {
           primaryColorLight: ColorManager.mainBlue,
           scaffoldBackgroundColor: ColorManager.white,
         ),
-        //home: const MyHomePage(),
+        
       ),
     );
       
