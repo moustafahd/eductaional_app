@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:untitled2/core/helpers/extensions.dart';
 import 'package:untitled2/core/helpers/helpers.dart';
+import 'package:untitled2/core/routing/routes.dart';
 import 'package:untitled2/core/theming/images.dart';
 import 'package:untitled2/core/theming/colors.dart';
 import 'package:untitled2/core/theming/styles.dart';
@@ -18,7 +20,7 @@ class HomeWidget extends StatelessWidget {
         alignment: Alignment.bottomCenter,
         children: [
           Container(
-            height: 170.h,
+            height: 175.h,
             width: double.infinity,
             padding: EdgeInsets.symmetric(horizontal: 16.w, vertical: 16.h),
             decoration: BoxDecoration(
@@ -51,11 +53,13 @@ class HomeWidget extends StatelessWidget {
                 SizedBox(height: 10.h),
                 Expanded(
                   child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      context.pushNamed(Routes.profile);
+                    },
                     style: TextButton.styleFrom(
                       backgroundColor: ColorManager.white,
                       shape: RoundedRectangleBorder(
-                        borderRadius: circularBorder(26),
+                        borderRadius: circularBorder(30),
                       ),
                     ),
                     child: Text(

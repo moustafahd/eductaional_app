@@ -60,14 +60,19 @@ class S {
     return Intl.message(
       'First Lesson: introduction to artificial intelligence world from zero to hero 2025',
       name: 'lessonTitle',
-      desc: '',
+      desc: 'Title of the first lesson',
       args: [],
     );
   }
 
   /// `1h 30min`
   String get lessonDuration {
-    return Intl.message('1h 30min', name: 'lessonDuration', desc: '', args: []);
+    return Intl.message(
+      '1h 30min',
+      name: 'lessonDuration',
+      desc: 'Duration of the lesson',
+      args: [],
+    );
   }
 
   /// `Search for a course`
@@ -75,7 +80,7 @@ class S {
     return Intl.message(
       'Search for a course',
       name: 'courseSearch',
-      desc: '',
+      desc: 'Placeholder text for course search input',
       args: [],
     );
   }
@@ -85,7 +90,7 @@ class S {
     return Intl.message(
       'Enroll now',
       name: 'enrollButtton',
-      desc: '',
+      desc: 'Text for the enroll button',
       args: [],
     );
   }
@@ -95,7 +100,7 @@ class S {
     return Intl.message(
       'What do you\nwant to learn \nToday?',
       name: 'homeWidgetTitle',
-      desc: '',
+      desc: 'Title for the home widget',
       args: [],
     );
   }
@@ -105,14 +110,19 @@ class S {
     return Intl.message(
       'Discover courses',
       name: 'discovreButton',
-      desc: '',
+      desc: 'Text for the discover courses button',
       args: [],
     );
   }
 
   /// `Home Page`
   String get homePageTitle {
-    return Intl.message('Home Page', name: 'homePageTitle', desc: '', args: []);
+    return Intl.message(
+      'Home Page',
+      name: 'homePageTitle',
+      desc: 'Title for the home page',
+      args: [],
+    );
   }
 
   /// `Welcome back!`
@@ -120,7 +130,7 @@ class S {
     return Intl.message(
       'Welcome back!',
       name: 'welcomeBack',
-      desc: '',
+      desc: 'Welcome back message',
       args: [],
     );
   }
@@ -130,14 +140,19 @@ class S {
     return Intl.message(
       'We\'re excited to have you back, can\'t wait to see what you\'ve been up to since you last logged in.',
       name: 'loginDescription',
-      desc: '',
+      desc: 'Description for the login page',
       args: [],
     );
   }
 
   /// `Skip`
   String get skipLogin {
-    return Intl.message('Skip', name: 'skipLogin', desc: '', args: []);
+    return Intl.message(
+      'Skip',
+      name: 'skipLogin',
+      desc: 'Text for the skip login button',
+      args: [],
+    );
   }
 
   /// `Enter your email`
@@ -145,7 +160,7 @@ class S {
     return Intl.message(
       'Enter your email',
       name: 'emailHint',
-      desc: '',
+      desc: 'Hint text for email input',
       args: [],
     );
   }
@@ -155,7 +170,7 @@ class S {
     return Intl.message(
       'Enter your password',
       name: 'passwordHint',
-      desc: '',
+      desc: 'Hint text for password input',
       args: [],
     );
   }
@@ -165,7 +180,7 @@ class S {
     return Intl.message(
       'Enter your phone number',
       name: 'phoneNumberHint',
-      desc: '',
+      desc: 'Hint text for phone number input',
       args: [],
     );
   }
@@ -175,7 +190,7 @@ class S {
     return Intl.message(
       'Forgot password?',
       name: 'forgotPassword',
-      desc: '',
+      desc: 'Text for forgot password link',
       args: [],
     );
   }
@@ -185,7 +200,7 @@ class S {
     return Intl.message(
       'At our app, we take the security of your information seriously.',
       name: 'forgotPasswordDescription',
-      desc: '',
+      desc: 'Description for forgot password page',
       args: [],
     );
   }
@@ -195,7 +210,7 @@ class S {
     return Intl.message(
       'Create account',
       name: 'createAccount',
-      desc: '',
+      desc: 'Text for create account button',
       args: [],
     );
   }
@@ -205,7 +220,7 @@ class S {
     return Intl.message(
       'Sign up now and start exploring all that our app has to offer. We\'re excited to welcome you to our community!',
       name: 'registerDescription',
-      desc: '',
+      desc: 'Description for the registration page',
       args: [],
     );
   }
@@ -215,7 +230,7 @@ class S {
     return Intl.message(
       'Fill Your Profile',
       name: 'fillProfile',
-      desc: '',
+      desc: 'Text for fill your profile section',
       args: [],
     );
   }
@@ -225,14 +240,19 @@ class S {
     return Intl.message(
       'Please take a few minutes to fill out your profile with as much detail as possible.',
       name: 'fillProfileDescription',
-      desc: '',
+      desc: 'Description for filling profile section',
       args: [],
     );
   }
 
   /// `Submit`
   String get submit {
-    return Intl.message('Submit', name: 'submit', desc: '', args: []);
+    return Intl.message(
+      'Submit',
+      name: 'submit',
+      desc: 'Text for the submit button',
+      args: [],
+    );
   }
 }
 
