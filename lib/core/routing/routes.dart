@@ -7,6 +7,9 @@ class Routes {
 
   static const String forgotPassword = '/forgotPassword';
   static const String termsConditions = '/termsConditions';
+  static const String navigation = '/navigation';
+
+  static const String search = '/search';
   static const String videoLesson = '/videoLesson';
   static const String profile = '/profile';
 

@@ -1,8 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:untitled2/features/auth/register/data/models/register_request_body.dart';
-import 'package:untitled2/features/auth/register/data/models/register_response.dart';
 import 'package:untitled2/features/auth/register/data/repos/register_repo.dart';
 import 'package:untitled2/features/auth/register/logic/cubit/register_state.dart';
 

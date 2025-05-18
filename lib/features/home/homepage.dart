@@ -1,12 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:untitled2/core/helpers/extensions.dart';
-import 'package:untitled2/core/routing/routes.dart';
+import 'package:untitled2/core/helpers/helpers.dart';
 import 'package:untitled2/core/widgets/app_bar.dart';
 import 'package:untitled2/core/widgets/home_widget.dart';
 import 'package:untitled2/core/widgets/lesson_card.dart';
-import 'package:untitled2/core/widgets/primary_button.dart';
-import 'package:untitled2/core/widgets/search_bar.dart';
 import 'package:untitled2/generated/l10n.dart';
 
 class MyHomePage extends StatelessWidget {
@@ -16,45 +12,29 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Stack(
-          fit: StackFit.expand,
-          children: [
-            SingleChildScrollView(
-              padding: EdgeInsets.only(left: 14.w, right: 14.w),
-              child: Column(
-                children: [
-                  CustomAppBar(title: S.of(context).homePageTitle),
-                  SizedBox(height: 18.h),
-                  Searchbar(),
-                  SizedBox(height: 18.h),
-                  HomeWidget(),
-                  SizedBox(height: 18.h),
-                  //CustomTextField(),
-                  ...List.generate(
-                    20,
-                    (index) => LessonCard(
-                      
-                      S.of(context).lessonTitle,
-                      S.of(context).lessonDuration,
-                    ),
-                  ),
-                ],
-              ),
+        child: SingleChildScrollView(
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal:  16.0),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+            
+              children: [
+                CustomAppBar(title: 'Home Page'),
+                verticalSpace(10),
+                HomeWidget(),
+                verticalSpace(10),
+                LessonCard(S.of(context).lessonTitle , S.of(context).lessonDuration ),
+                LessonCard(S.of(context).lessonTitle , S.of(context).lessonDuration ),
+                LessonCard(S.of(context).lessonTitle , S.of(context).lessonDuration ),
+                LessonCard(S.of(context).lessonTitle , S.of(context).lessonDuration ),
+                LessonCard(S.of(context).lessonTitle , S.of(context).lessonDuration ),
+                LessonCard(S.of(context).lessonTitle , S.of(context).lessonDuration ),
+                LessonCard(S.of(context).lessonTitle , S.of(context).lessonDuration ),
+              ],
             ),
-            Positioned(
-              left: 14.w,
-              right: 14.w,
-              bottom: 24.h,
-              child: PrimaryButton(
-                buttonText: S.of(context).enrollButtton,
-                onPressed: () {
-                  context.pushNamed(Routes.videoLesson);
-                },
-              ),
-            ),
-          ],
+          ),
         ),
-      ),
+      )
     );
   }
 }

@@ -5,6 +5,7 @@ import 'package:untitled2/features/auth/login/data/models/login_request_body.dar
 import 'package:untitled2/features/auth/login/data/models/login_response.dart';
 import 'package:untitled2/features/auth/register/data/models/register_request_body.dart';
 import 'package:untitled2/features/auth/register/data/models/register_response.dart';
+import 'package:untitled2/features/profile/data/models/profile_response.dart';
 
 part 'api_service.g.dart';
 
@@ -22,6 +23,11 @@ abstract class ApiService {
   @POST(ApiConstants.registerEndpoint)
   Future<RegisterResponse> register(
     @Body() RegisterRequestBody registerRequestBody,
+  );
+
+  @GET(ApiConstants.profileEndpoint)
+  Future<ProfileResponse> getProfileData(
+    
   );
 
 }

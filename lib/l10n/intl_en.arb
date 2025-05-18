@@ -1,5 +1,66 @@
 {
-
+    "@@locale": "en",
+    "@lessonTitle": {
+        "description": "Title of the first lesson"
+    },
+    "@lessonDuration": {
+        "description": "Duration of the lesson"
+    },
+    "@courseSearch": {
+        "description": "Placeholder text for course search input"
+    },
+    "@enrollButtton": {
+        "description": "Text for the enroll button"
+    },
+    "@homeWidgetTitle": {
+        "description": "Title for the home widget"
+    },
+    "@discovreButton": {
+        "description": "Text for the discover courses button"
+    },
+    "@homePageTitle": {
+        "description": "Title for the home page"
+    },
+    "@welcomeBack": {
+        "description": "Welcome back message"
+    },
+    "@loginDescription": {
+        "description": "Description for the login page"
+    },
+    "@skipLogin": {
+        "description": "Text for the skip login button"
+    },
+    "@emailHint": {
+        "description": "Hint text for email input"
+    },
+    "@passwordHint": {
+        "description": "Hint text for password input"
+    },
+    "@phoneNumberHint": {
+        "description": "Hint text for phone number input"
+    },
+    "@forgotPassword": {
+        "description": "Text for forgot password link"
+    },
+    "@forgotPasswordDescription": {
+        "description": "Description for forgot password page"
+    },
+    "@createAccount": {
+        "description": "Text for create account button"
+    },
+    "@registerDescription": {
+        "description": "Description for the registration page"
+    },
+    "@fillProfile": {
+        "description": "Text for fill your profile section"
+    },
+    "@fillProfileDescription": {
+        "description": "Description for filling profile section"
+    },
+    "@submit": {
+        "description": "Text for the submit button"
+    },
+    
     "lessonTitle" : "First Lesson: introduction to artificial intelligence world from zero to hero 2025",
     "lessonDuration" : "1h 30min",
     "courseSearch" : "Search for a course",

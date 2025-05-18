@@ -6,12 +6,14 @@ import 'package:untitled2/features/auth/login/data/repos/login_repo.dart';
 import 'package:untitled2/features/auth/login/logic/cubit/login_cubit.dart';
 import 'package:untitled2/features/auth/register/data/repos/register_repo.dart';
 import 'package:untitled2/features/auth/register/logic/cubit/register_cubit.dart';
+import 'package:untitled2/features/profile/data/repo/profile_repo.dart';
+import 'package:untitled2/features/profile/logic/cubit/profile_cubit.dart';
 
 final getIt = GetIt.instance;
 
 Future<void> setupGetIt() async {
   // Dio & ApiService 
-  Dio dio = DioFactory.getDio();
+  Dio dio = await DioFactory.getDio();
   getIt.registerLazySingleton<ApiService>(() => ApiService(dio));
 
   // Login
@@ -21,4 +23,10 @@ Future<void> setupGetIt() async {
   // Register
   getIt.registerLazySingleton<RegisterRepo>(() => RegisterRepo(getIt()));
   getIt.registerFactory<RegisterCubit>(() => RegisterCubit(getIt()));
+
+  // Profile
+  getIt.registerLazySingleton<ProfileRepo>(() => ProfileRepo(getIt()));
+  getIt.registerFactory<ProfileCubit>(() => ProfileCubit(getIt()));
+
+
 }
