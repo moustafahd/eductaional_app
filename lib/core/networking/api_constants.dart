@@ -6,6 +6,9 @@ class ApiConstants {
 
   static const String profileEndpoint = "profile/";
 
+  // Formations
+  static const String formationsEndpoint = "formation/formations/";
+
 
 }
 

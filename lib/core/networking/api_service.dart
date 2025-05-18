@@ -5,6 +5,8 @@ import 'package:untitled2/features/auth/login/data/models/login_request_body.dar
 import 'package:untitled2/features/auth/login/data/models/login_response.dart';
 import 'package:untitled2/features/auth/register/data/models/register_request_body.dart';
 import 'package:untitled2/features/auth/register/data/models/register_response.dart';
+import 'package:untitled2/features/formations/create%20formation/data/models/create_formation_request_body.dart';
+import 'package:untitled2/features/formations/create%20formation/data/models/create_formation_response.dart';
 import 'package:untitled2/features/profile/data/models/profile_response.dart';
 
 part 'api_service.g.dart';
@@ -28,6 +30,12 @@ abstract class ApiService {
   @GET(ApiConstants.profileEndpoint)
   Future<ProfileResponse> getProfileData(
     
+  );
+
+  // Formations
+  @POST(ApiConstants.formationsEndpoint)
+  Future<CreateFormationResponse> createFormation(
+    @Body() CreateFormationRequestBody createFormationRequestBody,
   );
 
 }

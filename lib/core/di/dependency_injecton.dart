@@ -6,6 +6,8 @@ import 'package:untitled2/features/auth/login/data/repos/login_repo.dart';
 import 'package:untitled2/features/auth/login/logic/cubit/login_cubit.dart';
 import 'package:untitled2/features/auth/register/data/repos/register_repo.dart';
 import 'package:untitled2/features/auth/register/logic/cubit/register_cubit.dart';
+import 'package:untitled2/features/formations/create%20formation/data/repos/create_formation_repo.dart';
+import 'package:untitled2/features/formations/create%20formation/logic/cubit/create_formation_cubit.dart';
 import 'package:untitled2/features/profile/data/repo/profile_repo.dart';
 import 'package:untitled2/features/profile/logic/cubit/profile_cubit.dart';
 
@@ -27,6 +29,10 @@ Future<void> setupGetIt() async {
   // Profile
   getIt.registerLazySingleton<ProfileRepo>(() => ProfileRepo(getIt()));
   getIt.registerFactory<ProfileCubit>(() => ProfileCubit(getIt()));
+
+  // Create Formation
+  getIt.registerLazySingleton<CreateFormationRepo>(() => CreateFormationRepo(getIt()));
+  getIt.registerFactory<CreateFormationCubit>(() => CreateFormationCubit(getIt()));
 
 
 }
