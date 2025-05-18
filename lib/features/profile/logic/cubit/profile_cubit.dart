@@ -12,11 +12,9 @@ class ProfileCubit extends Cubit<ProfileState> {
     final result = await _profileRepo.getProfileData();
     result.when(
       success: (profileResponse) {
-        print("Profile data: ${profileResponse.userName} **********************************************");
         emit(ProfileState.profileSuccess(profileResponse));
       },
       failure: (errorHandler) {
-        print("Profile error: $errorHandler *********************************************");
         emit(ProfileState.profileError(errorHandler));
       },
     );
