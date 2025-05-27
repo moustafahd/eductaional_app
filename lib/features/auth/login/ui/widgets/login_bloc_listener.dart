@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:untitled2/core/helpers/extensions.dart';
 import 'package:untitled2/core/routing/routes.dart';
 import 'package:untitled2/core/theming/colors.dart';
-import 'package:untitled2/educational_app.dart';
 import 'package:untitled2/features/auth/login/logic/cubit/login_cubit.dart';
 import 'package:untitled2/features/auth/login/logic/cubit/login_state.dart';
 
@@ -32,7 +31,7 @@ class _LoginBlocListenerState extends State<LoginBlocListener> {
           success: (response) {
             // Navigate to the next screen or show success message
             context.pop();
-            isStudent() ? context.pushReplacementNamed(Routes.home) : context.pushReplacementNamed(Routes.profile);
+            context.pushReplacementNamed(Routes.navigation);
           },
           failure: (error) {
             // Show error message

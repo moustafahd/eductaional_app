@@ -14,9 +14,9 @@ class CreateFormationResponse {
   @JsonKey(name: 'formateur')
   final int instractorId;
   @JsonKey(name: 'mote_cles')
-  final List<int>? keywords;
+  final List<int>? keywordsIdLists;
   @JsonKey(name: 'prerequis')
-  final List<FormationRequirments>? requirments;
+  final List<FormationRequirments?>? requirmentsList;
 
   CreateFormationResponse({
     required this.formationId,
@@ -24,8 +24,8 @@ class CreateFormationResponse {
     required this.description,
     required this.category,
     required this.instractorId,
-    required this.keywords,
-    required this.requirments,
+    required this.keywordsIdLists,
+    required this.requirmentsList,
   });
   factory CreateFormationResponse.fromJson(Map<String, dynamic> json) =>
       _$CreateFormationResponseFromJson(json);
@@ -35,11 +35,11 @@ class CreateFormationResponse {
 @JsonSerializable()
 class FormationRequirments {
   @JsonKey(name: 'id_requirements')
-  final int requirmentId;
+  final int? requirmentId;
   @JsonKey(name: 'description')
-  final String requirmentDescription;
+  final String? requirmentDescription;
   @JsonKey(name: 'ordre')
-  final String requirmentOrdre;
+  final int? requirmentOrdre;
 
   FormationRequirments(this.requirmentDescription, this.requirmentOrdre, this.requirmentId, );
 
