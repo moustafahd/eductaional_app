@@ -14,13 +14,18 @@ CreateFormationResponse _$CreateFormationResponseFromJson(
   description: json['description'] as String,
   category: json['categorie'] as String,
   instractorId: (json['formateur'] as num).toInt(),
-  keywords:
+  keywordsIdLists:
       (json['mote_cles'] as List<dynamic>?)
           ?.map((e) => (e as num).toInt())
           .toList(),
-  requirments:
+  requirmentsList:
       (json['prerequis'] as List<dynamic>?)
-          ?.map((e) => FormationRequirments.fromJson(e as Map<String, dynamic>))
+          ?.map(
+            (e) =>
+                e == null
+                    ? null
+                    : FormationRequirments.fromJson(e as Map<String, dynamic>),
+          )
           .toList(),
 );
 
@@ -32,16 +37,16 @@ Map<String, dynamic> _$CreateFormationResponseToJson(
   'description': instance.description,
   'categorie': instance.category,
   'formateur': instance.instractorId,
-  'mote_cles': instance.keywords,
-  'prerequis': instance.requirments,
+  'mote_cles': instance.keywordsIdLists,
+  'prerequis': instance.requirmentsList,
 };
 
 FormationRequirments _$FormationRequirmentsFromJson(
   Map<String, dynamic> json,
 ) => FormationRequirments(
-  json['description'] as String,
-  json['ordre'] as String,
-  (json['id_requirements'] as num).toInt(),
+  json['description'] as String?,
+  (json['ordre'] as num?)?.toInt(),
+  (json['id_requirements'] as num?)?.toInt(),
 );
 
 Map<String, dynamic> _$FormationRequirmentsToJson(

@@ -45,9 +45,7 @@ class EducationalApp extends StatelessWidget {
 bool isStudent() {
   return LoginResponse().type == "etudiant";
 }
-bool isInstractor() {
-  return LoginResponse().type == "enseignant";
-}
+
 bool isAdmin() {
   return LoginResponse().type == "gerant";
 }

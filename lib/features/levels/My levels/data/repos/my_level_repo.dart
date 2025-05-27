@@ -1,18 +1,18 @@
 import 'package:untitled2/core/networking/api_error_handler.dart';
 import 'package:untitled2/core/networking/api_result.dart';
 import 'package:untitled2/core/networking/api_service.dart';
-import 'package:untitled2/features/profile/data/models/profile_response.dart';
+import 'package:untitled2/features/levels/create%20level/data/models/create_level_response.dart';
 
-class ProfileRepo {
+
+class MyLevelRepo {
   final ApiService _apiService;
+  MyLevelRepo(this._apiService);
 
-  ProfileRepo(this._apiService);
-
-  Future<ApiResult<ProfileResponse>> getProfileData() async {
+  
+  Future<ApiResult<List<CreateLevelResponse>>> getMyLevels() async {
     try {
-      final response = await _apiService.getProfileData();
+      final response = await _apiService.getMyLevels();
       return ApiResult.success(response);
-    
     } catch (error) {
       return ApiResult.failure(ErrorHandler.handle(error));
     }

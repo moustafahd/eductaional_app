@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:untitled2/core/helpers/helpers.dart';
-import 'package:untitled2/features/profile/data/models/profile_response.dart';
 import 'package:untitled2/features/profile/logic/cubit/profile_cubit.dart';
 import 'package:untitled2/features/profile/logic/cubit/profile_state.dart';
 import 'package:untitled2/features/profile/presentation/logout.dart';

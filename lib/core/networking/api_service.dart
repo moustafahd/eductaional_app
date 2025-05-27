@@ -7,6 +7,7 @@ import 'package:untitled2/features/auth/register/data/models/register_request_bo
 import 'package:untitled2/features/auth/register/data/models/register_response.dart';
 import 'package:untitled2/features/formations/create%20formation/data/models/create_formation_request_body.dart';
 import 'package:untitled2/features/formations/create%20formation/data/models/create_formation_response.dart';
+import 'package:untitled2/features/levels/create%20level/data/models/create_level_response.dart';
 import 'package:untitled2/features/profile/data/models/profile_response.dart';
 
 part 'api_service.g.dart';
@@ -16,11 +17,7 @@ abstract class ApiService {
   factory ApiService(Dio dio, {String baseUrl}) = _ApiService;
 
   @POST(ApiConstants.loginEndpoint)
-  Future<LoginResponse> login(
-    
-    @Body() LoginRequestBody loginRequestBody,
-
-  );
+  Future<LoginResponse> login(@Body() LoginRequestBody loginRequestBody);
 
   @POST(ApiConstants.registerEndpoint)
   Future<RegisterResponse> register(
@@ -28,9 +25,7 @@ abstract class ApiService {
   );
 
   @GET(ApiConstants.profileEndpoint)
-  Future<ProfileResponse> getProfileData(
-    
-  );
+  Future<ProfileResponse> getProfileData();
 
   // Formations
   @POST(ApiConstants.formationsEndpoint)
@@ -38,4 +33,11 @@ abstract class ApiService {
     @Body() CreateFormationRequestBody createFormationRequestBody,
   );
 
+  // My Formations "Get formateur by id"
+  @GET(ApiConstants.myFormationsEndpoint)
+  Future<List<CreateFormationResponse>> getMyFormations();
+
+  // Levels
+  @GET(ApiConstants.levelsEndpoint)
+  Future<List<CreateLevelResponse>> getMyLevels();
 }
