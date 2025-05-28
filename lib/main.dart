@@ -10,6 +10,9 @@ import 'package:untitled2/generated/l10n.dart';
 
 
 bool isLoggedInUser = false;
+bool isUserStudent = false;
+bool isUserTeacher = false;
+bool isUserAdmin = false;
 void main() async{
   
   WidgetsFlutterBinding.ensureInitialized();
@@ -29,5 +32,4 @@ void main() async{
 Future<void> isUserLoggedIn() async{
   String? userToken = await SharedPreferenceHelper.getString(SharedPreferencesKeys.accessToken);
   isLoggedInUser = userToken != null && userToken.isNotEmpty;
-
 }

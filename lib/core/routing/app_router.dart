@@ -16,7 +16,7 @@ import 'package:untitled2/features/home/video_lesson.dart';
 import 'package:untitled2/features/onboarding/onboarding_screen.dart';
 import 'package:untitled2/features/profile/logic/cubit/profile_cubit.dart';
 import 'package:untitled2/features/profile/profile.dart';
-import 'package:untitled2/features/search/search_screen.dart';
+import 'package:untitled2/features/search/ui/search_screen.dart';
 
 class AppRouter {
   Route? generateRoute(RouteSettings settings) {
@@ -60,8 +60,8 @@ class AppRouter {
         return MaterialPageRoute(builder: (_) => const MyHomePage());
       case Routes.search:
         return MaterialPageRoute(builder: (_) => const SearchScreen());
-      case Routes.videoLesson:
-        return MaterialPageRoute(builder: (_) => const VideoLesson());
+      // case Routes.videoLesson:
+      //   return MaterialPageRoute(builder: (_) => const VideoLesson());
       case Routes.profile:
         return MaterialPageRoute(
           builder:

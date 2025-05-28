@@ -1,0 +1,160 @@
+"filename", "language", "YAML", "Dart", "Properties", "Markdown", "JSON", "XML", "HTML", "comment", "blank", "total"
+"c:\Users\EK\Desktop\untitled2\README.md", "Markdown", 0, 0, 0, 1, 0, 0, 0, 0, 2, 3
+"c:\Users\EK\Desktop\untitled2\analysis_options.yaml", "YAML", 3, 0, 0, 0, 0, 0, 0, 22, 4, 29
+"c:\Users\EK\Desktop\untitled2\android\app\src\debug\AndroidManifest.xml", "XML", 0, 0, 0, 0, 0, 3, 0, 4, 1, 8
+"c:\Users\EK\Desktop\untitled2\android\app\src\main\AndroidManifest.xml", "XML", 0, 0, 0, 0, 0, 38, 0, 11, 1, 50
+"c:\Users\EK\Desktop\untitled2\android\app\src\main\res\drawable-v21\launch_background.xml", "XML", 0, 0, 0, 0, 0, 4, 0, 7, 2, 13
+"c:\Users\EK\Desktop\untitled2\android\app\src\main\res\drawable\launch_background.xml", "XML", 0, 0, 0, 0, 0, 4, 0, 7, 2, 13
+"c:\Users\EK\Desktop\untitled2\android\app\src\main\res\values-night\styles.xml", "XML", 0, 0, 0, 0, 0, 9, 0, 9, 1, 19
+"c:\Users\EK\Desktop\untitled2\android\app\src\main\res\values\styles.xml", "XML", 0, 0, 0, 0, 0, 9, 0, 9, 1, 19
+"c:\Users\EK\Desktop\untitled2\android\app\src\main\res\xml\network_security_config.xml", "XML", 0, 0, 0, 0, 0, 7, 0, 1, 0, 8
+"c:\Users\EK\Desktop\untitled2\android\app\src\profile\AndroidManifest.xml", "XML", 0, 0, 0, 0, 0, 3, 0, 4, 1, 8
+"c:\Users\EK\Desktop\untitled2\android\gradle.properties", "Properties", 0, 0, 3, 0, 0, 0, 0, 0, 0, 3
+"c:\Users\EK\Desktop\untitled2\android\gradle\wrapper\gradle-wrapper.properties", "Properties", 0, 0, 5, 0, 0, 0, 0, 0, 1, 6
+"c:\Users\EK\Desktop\untitled2\build.yaml", "YAML", 7, 0, 0, 0, 0, 0, 0, 0, 1, 8
+"c:\Users\EK\Desktop\untitled2\devtools_options.yaml", "YAML", 3, 0, 0, 0, 0, 0, 0, 0, 1, 4
+"c:\Users\EK\Desktop\untitled2\lib\core\di\dependency_injecton.dart", "Dart", 0, 45, 0, 0, 0, 0, 0, 10, 11, 66
+"c:\Users\EK\Desktop\untitled2\lib\core\helpers\constants.dart", "Dart", 0, 5, 0, 0, 0, 0, 0, 0, 1, 6
+"c:\Users\EK\Desktop\untitled2\lib\core\helpers\extensions.dart", "Dart", 0, 16, 0, 0, 0, 0, 0, 0, 6, 22
+"c:\Users\EK\Desktop\untitled2\lib\core\helpers\helpers.dart", "Dart", 0, 9, 0, 0, 0, 0, 0, 0, 3, 12
+"c:\Users\EK\Desktop\untitled2\lib\core\helpers\regex.dart", "Dart", 0, 14, 0, 0, 0, 0, 0, 0, 2, 16
+"c:\Users\EK\Desktop\untitled2\lib\core\helpers\shared_preference.dart", "Dart", 0, 55, 0, 0, 0, 0, 0, 29, 13, 97
+"c:\Users\EK\Desktop\untitled2\lib\core\networking\api_constants.dart", "Dart", 0, 14, 0, 0, 0, 0, 0, 5, 19, 38
+"c:\Users\EK\Desktop\untitled2\lib\core\networking\api_error_handler.dart", "Dart", 0, 32, 0, 0, 0, 0, 0, 3, 5, 40
+"c:\Users\EK\Desktop\untitled2\lib\core\networking\api_error_model.dart", "Dart", 0, 14, 0, 0, 0, 0, 0, 12, 9, 35
+"c:\Users\EK\Desktop\untitled2\lib\core\networking\api_error_model.g.dart", "Dart", 0, 8, 0, 0, 0, 0, 0, 4, 5, 17
+"c:\Users\EK\Desktop\untitled2\lib\core\networking\api_result.dart", "Dart", 0, 8, 0, 0, 0, 0, 0, 0, 3, 11
+"c:\Users\EK\Desktop\untitled2\lib\core\networking\api_result.freezed.dart", "Dart", 0, 281, 0, 0, 0, 0, 0, 32, 48, 361
+"c:\Users\EK\Desktop\untitled2\lib\core\networking\api_service.dart", "Dart", 0, 49, 0, 0, 0, 0, 0, 6, 12, 67
+"c:\Users\EK\Desktop\untitled2\lib\core\networking\api_service.g.dart", "Dart", 0, 293, 0, 0, 0, 0, 0, 5, 22, 320
+"c:\Users\EK\Desktop\untitled2\lib\core\networking\dio_factory.dart", "Dart", 0, 36, 0, 0, 0, 0, 0, 4, 14, 54
+"c:\Users\EK\Desktop\untitled2\lib\core\routing\app_router.dart", "Dart", 0, 75, 0, 0, 0, 0, 0, 0, 3, 78
+"c:\Users\EK\Desktop\untitled2\lib\core\routing\routes.dart", "Dart", 0, 13, 0, 0, 0, 0, 0, 0, 4, 17
+"c:\Users\EK\Desktop\untitled2\lib\core\theming\colors.dart", "Dart", 0, 13, 0, 0, 0, 0, 0, 0, 3, 16
+"c:\Users\EK\Desktop\untitled2\lib\core\theming\font_weights.dart", "Dart", 0, 11, 0, 0, 0, 0, 0, 0, 1, 12
+"c:\Users\EK\Desktop\untitled2\lib\core\theming\images.dart", "Dart", 0, 5, 0, 0, 0, 0, 0, 0, 4, 9
+"c:\Users\EK\Desktop\untitled2\lib\core\theming\styles.dart", "Dart", 0, 83, 0, 0, 0, 0, 0, 0, 6, 89
+"c:\Users\EK\Desktop\untitled2\lib\core\widgets\app_bar.dart", "Dart", 0, 37, 0, 0, 0, 0, 0, 0, 4, 41
+"c:\Users\EK\Desktop\untitled2\lib\core\widgets\custom_text_field.dart", "Dart", 0, 47, 0, 0, 0, 0, 0, 1, 4, 52
+"c:\Users\EK\Desktop\untitled2\lib\core\widgets\home_widget.dart", "Dart", 0, 80, 0, 0, 0, 0, 0, 0, 4, 84
+"c:\Users\EK\Desktop\untitled2\lib\core\widgets\lesson_card.dart", "Dart", 0, 64, 0, 0, 0, 0, 0, 0, 5, 69
+"c:\Users\EK\Desktop\untitled2\lib\core\widgets\primary_button.dart", "Dart", 0, 35, 0, 0, 0, 0, 0, 0, 3, 38
+"c:\Users\EK\Desktop\untitled2\lib\core\widgets\search_bar.dart", "Dart", 0, 49, 0, 0, 0, 0, 0, 0, 5, 54
+"c:\Users\EK\Desktop\untitled2\lib\educational_app.dart", "Dart", 0, 52, 0, 0, 0, 0, 0, 1, 4, 57
+"c:\Users\EK\Desktop\untitled2\lib\features\Navigation\logic\cubit\navigation_cubit.dart", "Dart", 0, 10, 0, 0, 0, 0, 0, 0, 4, 14
+"c:\Users\EK\Desktop\untitled2\lib\features\Navigation\logic\cubit\navigation_state.dart", "Dart", 0, 6, 0, 0, 0, 0, 0, 0, 3, 9
+"c:\Users\EK\Desktop\untitled2\lib\features\Navigation\ui\navigation.dart", "Dart", 0, 50, 0, 0, 0, 0, 0, 2, 8, 60
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\login\data\models\login_request_body.dart", "Dart", 0, 9, 0, 0, 0, 0, 0, 0, 5, 14
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\login\data\models\login_request_body.g.dart", "Dart", 0, 8, 0, 0, 0, 0, 0, 4, 5, 17
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\login\data\models\login_response.dart", "Dart", 0, 21, 0, 0, 0, 0, 0, 0, 7, 28
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\login\data\models\login_response.g.dart", "Dart", 0, 17, 0, 0, 0, 0, 0, 4, 5, 26
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\login\data\repos\login_repo.dart", "Dart", 0, 20, 0, 0, 0, 0, 0, 0, 3, 23
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\login\logic\cubit\login_cubit.dart", "Dart", 0, 49, 0, 0, 0, 0, 0, 0, 12, 61
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\login\logic\cubit\login_state.dart", "Dart", 0, 10, 0, 0, 0, 0, 0, 0, 2, 12
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\login\logic\cubit\login_state.freezed.dart", "Dart", 0, 515, 0, 0, 0, 0, 0, 42, 78, 635
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\login\ui\forgot_password.dart", "Dart", 0, 57, 0, 0, 0, 0, 0, 0, 3, 60
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\login\ui\login_screen.dart", "Dart", 0, 73, 0, 0, 0, 0, 0, 0, 7, 80
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\login\ui\widgets\dont_have_account.dart", "Dart", 0, 32, 0, 0, 0, 0, 0, 0, 3, 35
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\login\ui\widgets\email_and_password_form.dart", "Dart", 0, 54, 0, 0, 0, 0, 0, 0, 8, 62
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\login\ui\widgets\login_bloc_listener.dart", "Dart", 0, 43, 0, 0, 0, 0, 0, 2, 4, 49
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\login\ui\widgets\skip_auth.dart", "Dart", 0, 23, 0, 0, 0, 0, 0, 0, 3, 26
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\login\ui\widgets\terms_amd_conditions_widget.dart", "Dart", 0, 42, 0, 0, 0, 0, 0, 0, 3, 45
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\login\ui\widgets\terms_and_conditions_screen.dart", "Dart", 0, 30, 0, 0, 0, 0, 0, 0, 7, 37
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\register\data\models\register_request_body.dart", "Dart", 0, 29, 0, 0, 0, 0, 0, 0, 4, 33
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\register\data\models\register_request_body.g.dart", "Dart", 0, 24, 0, 0, 0, 0, 0, 4, 5, 33
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\register\data\models\register_response.dart", "Dart", 0, 12, 0, 0, 0, 0, 0, 0, 6, 18
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\register\data\models\register_response.g.dart", "Dart", 0, 8, 0, 0, 0, 0, 0, 4, 5, 17
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\register\data\repos\register_repo.dart", "Dart", 0, 20, 0, 0, 0, 0, 0, 0, 3, 23
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\register\logic\cubit\register_cubit.dart", "Dart", 0, 37, 0, 0, 0, 0, 0, 0, 6, 43
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\register\logic\cubit\register_state.dart", "Dart", 0, 10, 0, 0, 0, 0, 0, 0, 4, 14
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\register\logic\cubit\register_state.freezed.dart", "Dart", 0, 514, 0, 0, 0, 0, 0, 42, 78, 634
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\register\ui\fill_profile.dart", "Dart", 0, 37, 0, 0, 0, 0, 0, 0, 5, 42
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\register\ui\register_screen.dart", "Dart", 0, 64, 0, 0, 0, 0, 0, 1, 8, 73
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\register\ui\widgets\fill_profile_form.dart", "Dart", 0, 65, 0, 0, 0, 0, 0, 0, 5, 70
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\register\ui\widgets\register_bloc_listener.dart", "Dart", 0, 43, 0, 0, 0, 0, 0, 2, 4, 49
+"c:\Users\EK\Desktop\untitled2\lib\features\auth\register\ui\widgets\register_form.dart", "Dart", 0, 109, 0, 0, 0, 0, 0, 0, 6, 115
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\My formations\data\models\my_formations_response.dart", "Dart", 0, 13, 0, 0, 0, 0, 0, 0, 6, 19
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\My formations\data\models\my_formations_response.g.dart", "Dart", 0, 11, 0, 0, 0, 0, 0, 4, 5, 20
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\My formations\data\repo\my_formation_repo.dart", "Dart", 0, 16, 0, 0, 0, 0, 0, 0, 4, 20
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\My formations\logic\cubit\my_formation_cubit.dart", "Dart", 0, 19, 0, 0, 0, 0, 0, 0, 5, 24
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\My formations\logic\cubit\my_formation_state.dart", "Dart", 0, 11, 0, 0, 0, 0, 0, 0, 6, 17
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\My formations\logic\cubit\my_formation_state.freezed.dart", "Dart", 0, 561, 0, 0, 0, 0, 0, 43, 78, 682
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\My formations\ui\my_formations.dart", "Dart", 0, 67, 0, 0, 0, 0, 0, 12, 4, 83
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\My formations\ui\widgets\my_formations_item.dart", "Dart", 0, 77, 0, 0, 0, 0, 0, 1, 4, 82
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\data\models\create_formation_request_body.dart", "Dart", 0, 19, 0, 0, 0, 0, 0, 0, 4, 23
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\data\models\create_formation_request_body.g.dart", "Dart", 0, 17, 0, 0, 0, 0, 0, 4, 5, 26
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\data\models\create_formation_response.dart", "Dart", 0, 41, 0, 0, 0, 0, 0, 0, 7, 48
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\data\models\create_formation_response.g.dart", "Dart", 0, 48, 0, 0, 0, 0, 0, 4, 7, 59
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\data\repos\create_formation_repo.dart", "Dart", 0, 20, 0, 0, 0, 0, 0, 0, 4, 24
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\logic\cubit\create_formation_cubit.dart", "Dart", 0, 29, 0, 0, 0, 0, 0, 0, 7, 36
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\logic\cubit\create_formation_state.dart", "Dart", 0, 10, 0, 0, 0, 0, 0, 0, 4, 14
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\logic\cubit\create_formation_state.freezed.dart", "Dart", 0, 558, 0, 0, 0, 0, 0, 42, 78, 678
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\ui\create_formation.dart", "Dart", 0, 59, 0, 0, 0, 0, 0, 0, 5, 64
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\ui\widgets\create_formation_bloc_listener.dart", "Dart", 0, 39, 0, 0, 0, 0, 0, 2, 3, 44
+"c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\ui\widgets\create_formation_form.dart", "Dart", 0, 80, 0, 0, 0, 0, 0, 0, 3, 83
+"c:\Users\EK\Desktop\untitled2\lib\features\home\homepage.dart", "Dart", 0, 37, 0, 0, 0, 0, 0, 0, 4, 41
+"c:\Users\EK\Desktop\untitled2\lib\features\home\video_lesson.dart", "Dart", 0, 47, 0, 0, 0, 0, 0, 0, 3, 50
+"c:\Users\EK\Desktop\untitled2\lib\features\home\video_player_view.dart", "Dart", 0, 37, 0, 0, 0, 0, 0, 0, 9, 46
+"c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\data\models\create_lesson_request_body.dart", "Dart", 0, 26, 0, 0, 0, 0, 0, 0, 4, 30
+"c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\data\models\create_lesson_request_body.g.dart", "Dart", 0, 21, 0, 0, 0, 0, 0, 4, 5, 30
+"c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\data\models\create_lesson_response.dart", "Dart", 0, 33, 0, 0, 0, 0, 0, 0, 4, 37
+"c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\data\models\create_lesson_response.g.dart", "Dart", 0, 25, 0, 0, 0, 0, 0, 4, 5, 34
+"c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\data\repos\create_lesson_repo.dart", "Dart", 0, 20, 0, 0, 0, 0, 0, 0, 3, 23
+"c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\logic\cubit\create_lesson_cubit.dart", "Dart", 0, 33, 0, 0, 0, 0, 0, 0, 7, 40
+"c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\logic\cubit\create_lesson_state.dart", "Dart", 0, 10, 0, 0, 0, 0, 0, 0, 3, 13
+"c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\logic\cubit\create_lesson_state.freezed.dart", "Dart", 0, 524, 0, 0, 0, 0, 0, 42, 78, 644
+"c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\ui\create_lesson.dart", "Dart", 0, 62, 0, 0, 0, 0, 0, 0, 6, 68
+"c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\ui\widgets\create_lesson_bloc_listener.dart", "Dart", 0, 39, 0, 0, 0, 0, 0, 2, 4, 45
+"c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\ui\widgets\create_lesson_form.dart", "Dart", 0, 107, 0, 0, 0, 0, 0, 0, 5, 112
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\My levels\data\repos\my_level_repo.dart", "Dart", 0, 16, 0, 0, 0, 0, 0, 0, 4, 20
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\My levels\logic\cubit\my_levels_cubit.dart", "Dart", 0, 19, 0, 0, 0, 0, 0, 0, 6, 25
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\My levels\logic\cubit\my_levels_state.dart", "Dart", 0, 11, 0, 0, 0, 0, 0, 0, 6, 17
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\My levels\logic\cubit\my_levels_state.freezed.dart", "Dart", 0, 547, 0, 0, 0, 0, 0, 43, 78, 668
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\My levels\ui\decrire_level.dart", "Dart", 0, 70, 0, 0, 0, 0, 0, 3, 2, 75
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\My levels\ui\my_levels.dart", "Dart", 0, 87, 0, 0, 0, 0, 0, 0, 6, 93
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\My levels\ui\widgets\my_levels_item.dart", "Dart", 0, 76, 0, 0, 0, 0, 0, 1, 5, 82
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\My levels\ui\widgets\upload_container.dart", "Dart", 0, 57, 0, 0, 0, 0, 0, 0, 2, 59
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\data\models\create_level_request_body.dart", "Dart", 0, 15, 0, 0, 0, 0, 0, 0, 4, 19
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\data\models\create_level_request_body.g.dart", "Dart", 0, 15, 0, 0, 0, 0, 0, 4, 5, 24
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\data\models\create_level_response.dart", "Dart", 0, 19, 0, 0, 0, 0, 0, 0, 5, 24
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\data\models\create_level_response.g.dart", "Dart", 0, 16, 0, 0, 0, 0, 0, 4, 5, 25
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\data\repos\create_level_repo.dart", "Dart", 0, 20, 0, 0, 0, 0, 0, 0, 5, 25
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\logic\cubit\create_level_cubit.dart", "Dart", 0, 26, 0, 0, 0, 0, 0, 0, 6, 32
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\logic\cubit\create_level_state.dart", "Dart", 0, 10, 0, 0, 0, 0, 0, 0, 4, 14
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\logic\cubit\create_level_state.freezed.dart", "Dart", 0, 522, 0, 0, 0, 0, 0, 42, 78, 642
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\ui\create_level.dart", "Dart", 0, 62, 0, 0, 0, 0, 0, 0, 6, 68
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\ui\widgets\create_level_bloc_listener.dart", "Dart", 0, 39, 0, 0, 0, 0, 0, 2, 3, 44
+"c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\ui\widgets\create_level_form.dart", "Dart", 0, 52, 0, 0, 0, 0, 0, 0, 5, 57
+"c:\Users\EK\Desktop\untitled2\lib\features\onboarding\onboarding_screen.dart", "Dart", 0, 8, 0, 0, 0, 0, 0, 0, 2, 10
+"c:\Users\EK\Desktop\untitled2\lib\features\profile\data\models\profile_response.dart", "Dart", 0, 28, 0, 0, 0, 0, 0, 0, 6, 34
+"c:\Users\EK\Desktop\untitled2\lib\features\profile\data\models\profile_response.g.dart", "Dart", 0, 21, 0, 0, 0, 0, 0, 4, 5, 30
+"c:\Users\EK\Desktop\untitled2\lib\features\profile\data\repo\profile_repo.dart", "Dart", 0, 16, 0, 0, 0, 0, 0, 0, 5, 21
+"c:\Users\EK\Desktop\untitled2\lib\features\profile\logic\cubit\profile_cubit.dart", "Dart", 0, 19, 0, 0, 0, 0, 0, 0, 6, 25
+"c:\Users\EK\Desktop\untitled2\lib\features\profile\logic\cubit\profile_state.dart", "Dart", 0, 11, 0, 0, 0, 0, 0, 1, 6, 18
+"c:\Users\EK\Desktop\untitled2\lib\features\profile\logic\cubit\profile_state.freezed.dart", "Dart", 0, 520, 0, 0, 0, 0, 0, 42, 78, 640
+"c:\Users\EK\Desktop\untitled2\lib\features\profile\presentation\logout.dart", "Dart", 0, 27, 0, 0, 0, 0, 0, 0, 4, 31
+"c:\Users\EK\Desktop\untitled2\lib\features\profile\profile.dart", "Dart", 0, 172, 0, 0, 0, 0, 0, 3, 8, 183
+"c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\data\models\create_quiz_request_body.dart", "Dart", 0, 14, 0, 0, 0, 0, 0, 0, 6, 20
+"c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\data\models\create_quiz_request_body.g.dart", "Dart", 0, 10, 0, 0, 0, 0, 0, 4, 5, 19
+"c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\data\models\create_quiz_response.dart", "Dart", 0, 34, 0, 0, 0, 0, 0, 0, 9, 43
+"c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\data\models\create_quiz_response.g.dart", "Dart", 0, 25, 0, 0, 0, 0, 0, 4, 7, 36
+"c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\data\repos\create_quiz_repo.dart", "Dart", 0, 20, 0, 0, 0, 0, 0, 0, 4, 24
+"c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\logic\cubit\create_quiz_cubit.dart", "Dart", 0, 24, 0, 0, 0, 0, 0, 0, 9, 33
+"c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\logic\cubit\create_quiz_state.dart", "Dart", 0, 10, 0, 0, 0, 0, 0, 0, 3, 13
+"c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\logic\cubit\create_quiz_state.freezed.dart", "Dart", 0, 522, 0, 0, 0, 0, 0, 42, 78, 642
+"c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\ui\create_quiz.dart", "Dart", 0, 62, 0, 0, 0, 0, 0, 0, 6, 68
+"c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\ui\widgets\create_quiz_bloc_listener.dart", "Dart", 0, 39, 0, 0, 0, 0, 0, 2, 4, 45
+"c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\ui\widgets\create_quiz_form.dart", "Dart", 0, 39, 0, 0, 0, 0, 0, 0, 7, 46
+"c:\Users\EK\Desktop\untitled2\lib\features\search\search_screen.dart", "Dart", 0, 8, 0, 0, 0, 0, 0, 0, 2, 10
+"c:\Users\EK\Desktop\untitled2\lib\generated\intl\messages_all.dart", "Dart", 0, 53, 0, 0, 0, 0, 0, 10, 10, 73
+"c:\Users\EK\Desktop\untitled2\lib\generated\intl\messages_ar.dart", "Dart", 0, 21, 0, 0, 0, 0, 0, 10, 7, 38
+"c:\Users\EK\Desktop\untitled2\lib\generated\intl\messages_en.dart", "Dart", 0, 44, 0, 0, 0, 0, 0, 10, 7, 61
+"c:\Users\EK\Desktop\untitled2\lib\generated\l10n.dart", "Dart", 0, 222, 0, 0, 0, 0, 0, 28, 35, 285
+"c:\Users\EK\Desktop\untitled2\lib\l10n\intl_ar.arb", "JSON", 0, 0, 0, 0, 10, 0, 0, 0, 2, 12
+"c:\Users\EK\Desktop\untitled2\lib\l10n\intl_en.arb", "JSON", 0, 0, 0, 0, 83, 0, 0, 0, 13, 96
+"c:\Users\EK\Desktop\untitled2\lib\main.dart", "Dart", 0, 27, 0, 0, 0, 0, 0, 0, 6, 33
+"c:\Users\EK\Desktop\untitled2\pubspec.yaml", "YAML", 42, 0, 0, 0, 0, 0, 0, 51, 11, 104
+"c:\Users\EK\Desktop\untitled2\test\widget_test.dart", "Dart", 0, 17, 0, 0, 0, 0, 0, 10, 9, 36
+"c:\Users\EK\Desktop\untitled2\web\index.html", "HTML", 0, 0, 0, 0, 0, 0, 19, 15, 5, 39
+"c:\Users\EK\Desktop\untitled2\web\manifest.json", "JSON", 0, 0, 0, 0, 35, 0, 0, 0, 1, 36
+"Total", "-", 55, 9892, 8, 1, 128, 77, 19, 792, 1530, 12502

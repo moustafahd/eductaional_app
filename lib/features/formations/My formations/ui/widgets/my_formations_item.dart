@@ -43,6 +43,7 @@ class MyFormationsItem extends StatelessWidget {
               style: TextStyles.font14BlackSemiBold,
               ),
           ),
+          Spacer(),
           Flexible(
             flex: 1,
             child: IconButton(onPressed: (){ 
