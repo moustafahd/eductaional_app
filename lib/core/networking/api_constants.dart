@@ -26,6 +26,15 @@ class ApiConstants {
   // Levels
   static const String levelsEndpoint = "formation/formations/$formationId/niveaux/";
 
+  // Lessons
+  static const String lessonsEndpoint = "formation/formations/$formationId/niveaux/$levelId/cours/";
+
+  // Quizzes
+  static const String quizzesEndpoint = "quiz/niveaux/quizzes/";
+
+  // Add Quiz Questions
+  static const String addQuizQuestionsEndpoint = "quiz/questions/";
+
 }
 
 

@@ -2,13 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:untitled2/core/di/dependency_injecton.dart';
 import 'package:untitled2/core/helpers/helpers.dart';
-import 'package:untitled2/core/helpers/shared_preference.dart';
-import 'package:untitled2/core/networking/api_constants.dart';
 import 'package:untitled2/core/widgets/app_bar.dart';
 import 'package:untitled2/core/widgets/primary_button.dart';
 import 'package:untitled2/features/levels/My%20levels/logic/cubit/my_levels_cubit.dart';
 import 'package:untitled2/features/levels/My%20levels/logic/cubit/my_levels_state.dart';
 import 'package:untitled2/features/levels/My%20levels/ui/widgets/my_levels_item.dart';
+import 'package:untitled2/features/levels/create%20level/ui/create_level.dart';
 
 class MyLevelScreen extends StatelessWidget {
   const MyLevelScreen({super.key});
@@ -73,7 +72,13 @@ class MyLevelScreen extends StatelessWidget {
                     builder:
                         (context) => PrimaryButton(
                           buttonText: "Add new Level",
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.of(context).push(
+                              MaterialPageRoute(
+                                builder: (context) => CreateLevelScreen(),
+                              ),
+                            );
+                          },
                         ),
                   ),
                 ),
