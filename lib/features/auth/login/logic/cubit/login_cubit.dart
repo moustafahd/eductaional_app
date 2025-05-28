@@ -6,6 +6,7 @@ import 'package:untitled2/core/networking/dio_factory.dart';
 import 'package:untitled2/features/auth/login/data/models/login_request_body.dart';
 import 'package:untitled2/features/auth/login/data/repos/login_repo.dart';
 import 'package:untitled2/features/auth/login/logic/cubit/login_state.dart';
+import 'package:untitled2/main.dart';
 
 class LoginCubit extends Cubit<LoginState> {
   final LoginRepo _loginRepo;
@@ -30,6 +31,23 @@ class LoginCubit extends Cubit<LoginState> {
         await saveAccessToken(loginResponse.accessToken ?? '');
         await saveRefreshToken(loginResponse.refreshToken ?? '');
         await saveUserId(loginResponse.userId.toString());
+        if (loginResponse.type == 'etudiant"') {
+          isUserStudent = true;
+          isUserTeacher = false;
+          isUserAdmin = false;
+        } else if (loginResponse.type == 'formateur"') {
+          isUserStudent = false;
+          isUserTeacher = true;
+          isUserAdmin = false;
+        } else if (loginResponse.type == 'gerant"') {
+          isUserStudent = false;
+          isUserTeacher = false;
+          isUserAdmin = true;
+        } else {
+          isUserStudent = false;
+          isUserTeacher = false;
+          isUserAdmin = false;
+        }
         emit(LoginState.success(loginResponse));
       } ,
       failure: (error) => emit(LoginState.failure(error: error.apiErrorModel.message ?? '')),

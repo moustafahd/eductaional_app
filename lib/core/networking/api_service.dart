@@ -1,4 +1,5 @@
 import 'package:dio/dio.dart';
+import 'package:flutter/widgets.dart';
 import 'package:retrofit/retrofit.dart';
 import 'package:untitled2/core/networking/api_constants.dart';
 import 'package:untitled2/features/auth/login/data/models/login_request_body.dart';
@@ -7,10 +8,13 @@ import 'package:untitled2/features/auth/register/data/models/register_request_bo
 import 'package:untitled2/features/auth/register/data/models/register_response.dart';
 import 'package:untitled2/features/formations/create%20formation/data/models/create_formation_request_body.dart';
 import 'package:untitled2/features/formations/create%20formation/data/models/create_formation_response.dart';
+import 'package:untitled2/features/home/data/models/feedback_response.dart';
 import 'package:untitled2/features/lessons/create%20lesson/data/models/create_lesson_request_body.dart';
 import 'package:untitled2/features/lessons/create%20lesson/data/models/create_lesson_response.dart';
 import 'package:untitled2/features/levels/create%20level/data/models/create_level_request_body.dart';
 import 'package:untitled2/features/levels/create%20level/data/models/create_level_response.dart';
+import 'package:untitled2/features/payment/data/models/inscription_request_body.dart';
+import 'package:untitled2/features/payment/data/models/inscription_response.dart';
 import 'package:untitled2/features/profile/data/models/profile_response.dart';
 import 'package:untitled2/features/quiz/add%20quiz%20questions/data/models/add_quiz_questions_request_body.dart';
 import 'package:untitled2/features/quiz/add%20quiz%20questions/data/models/add_quiz_questions_response.dart';
@@ -40,6 +44,11 @@ abstract class ApiService {
   Future<CreateFormationResponse> createFormation(
     @Body() CreateFormationRequestBody createFormationRequestBody,
   );
+
+  // Get all Formations
+  @GET(ApiConstants.formationsEndpoint)
+  Future<List<CreateFormationResponse>> getAllFormations();
+  
 
   // My Formations "Get formateur by id"
   @GET(ApiConstants.myFormationsEndpoint)
@@ -72,4 +81,18 @@ abstract class ApiService {
   Future<AddQuizQuestionsResponse> addQuizQuestions(
     @Body() AddQuizQuestionsRequestBody addQuizQuestionsRequestBody,
   );
+
+  // Inscription
+  @POST(ApiConstants.inscriptionEndpoint)
+  Future<InscriptionResponse> inscription(
+    @Body() InscriptionRequestBody inscriptionRequestBody,
+  );
+
+  // Learn
+  @GET(ApiConstants.learnEndpoint)
+  Future<List<CreateLessonResponse>> learn();
+
+  // Feedback
+  @GET(ApiConstants.feedbackEndpoint)
+  Future<List<FeedBackResponse>> getFeedbacks();
 }

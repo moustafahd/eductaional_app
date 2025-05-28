@@ -4,10 +4,13 @@ import 'package:untitled2/core/di/dependency_injecton.dart';
 import 'package:untitled2/features/Navigation/logic/cubit/navigation_cubit.dart';
 import 'package:untitled2/features/Navigation/logic/cubit/navigation_state.dart';
 import 'package:untitled2/features/formations/My%20formations/ui/my_formations.dart';
+import 'package:untitled2/features/formations/create%20formation/ui/create_formation.dart';
 import 'package:untitled2/features/home/homepage.dart';
+import 'package:untitled2/features/lessons/learn/learn.dart';
 import 'package:untitled2/features/profile/logic/cubit/profile_cubit.dart';
 import 'package:untitled2/features/profile/profile.dart';
-import 'package:untitled2/features/search/search_screen.dart';
+import 'package:untitled2/features/search/ui/search_screen.dart';
+import 'package:untitled2/main.dart';
 
 class Navigation extends StatefulWidget {
   const Navigation({super.key});
@@ -22,8 +25,12 @@ class _NavigationState extends State<Navigation> {
   final List<Widget> _screens = [
     const MyHomePage(),
     const SearchScreen(),
-    MyFormationScreen(),
-    //isInstractor() ? const  : const CreateFormationScreen(),
+    // if (isUserTeacher) MyFormationScreen(),
+    // if (isUserAdmin) CreateFormationScreen(),
+    Learn(), 
+    
+
+
      
     BlocProvider(
     create: (context) => ProfileCubit(getIt())..getProfileData(),

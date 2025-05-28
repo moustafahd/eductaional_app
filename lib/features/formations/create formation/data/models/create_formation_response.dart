@@ -14,7 +14,7 @@ class CreateFormationResponse {
   @JsonKey(name: 'formateur')
   final int instractorId;
   @JsonKey(name: 'mote_cles')
-  final List<int>? keywordsIdLists;
+  final List<KeyWordModel>? keywordsIdLists;
   @JsonKey(name: 'prerequis')
   final List<FormationRequirments?>? requirmentsList;
 
@@ -45,4 +45,17 @@ class FormationRequirments {
 
   factory FormationRequirments.fromJson(Map<String, dynamic> json) =>
       _$FormationRequirmentsFromJson(json);
+}
+
+@JsonSerializable()
+class KeyWordModel {
+  @JsonKey(name: 'id_mote_cles')
+  final int? keywordId;
+  final String? type;
+  final String? description;
+
+  KeyWordModel(this.keywordId, this.type, this.description);
+
+  factory KeyWordModel.fromJson(Map<String, dynamic> json) =>
+      _$KeyWordModelFromJson(json);
 }

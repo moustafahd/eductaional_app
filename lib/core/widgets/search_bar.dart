@@ -5,14 +5,14 @@ import 'package:untitled2/core/theming/colors.dart';
 import 'package:untitled2/core/theming/styles.dart';
 import 'package:untitled2/generated/l10n.dart';
 
-class Searchbar extends StatefulWidget {
-  const Searchbar({super.key});
+class CustomSearchBar extends StatefulWidget {
+  const CustomSearchBar({super.key});
 
   @override
-  State<Searchbar> createState() => _SearchbarState();
+  State<CustomSearchBar> createState() => _CustomSearchBarState();
 }
 
-class _SearchbarState extends State<Searchbar> {
+class _CustomSearchBarState extends State<CustomSearchBar> {
   @override
   Widget build(BuildContext context) {
     return Container(

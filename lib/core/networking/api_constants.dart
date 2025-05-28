@@ -1,7 +1,7 @@
 
 
 class ApiConstants {
-  static const String userId = "7"; // 
+  static const String userId = "17"; // 
   static const String formationId = "1"; 
   static const String levelId = "1"; 
 
@@ -16,12 +16,14 @@ class ApiConstants {
   // Formations
   static const String formationsEndpoint = "formation/formations/";
 
-  
+  // learn
+  static const String learnEndpoint = "formation/formations/1/niveaux/1/cours/";
 
   // My Formations
   static const String myFormationsEndpoint = "formation/formations/by-formateur/$userId/";
 
-
+  // inscription
+  static const String inscriptionEndpoint = "formation/inscrits/";
 
   // Levels
   static const String levelsEndpoint = "formation/formations/$formationId/niveaux/";
@@ -34,6 +36,9 @@ class ApiConstants {
 
   // Add Quiz Questions
   static const String addQuizQuestionsEndpoint = "quiz/questions/";
+
+  // feedback
+  static const String feedbackEndpoint = "feedback/feedbacks/";
 
 }
 

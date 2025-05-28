@@ -1,0 +1,330 @@
+Date : 2025-05-28 00:24:19
+Directory : c:\Users\EK\Desktop\untitled2
+Total : 167 files,  10391 codes, 802 comments, 1578 blanks, all 12771 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Dart       |        148 |     10,103 |        662 |      1,528 |     12,293 |
+| JSON       |          3 |        128 |          0 |         16 |        144 |
+| XML        |          8 |         77 |         52 |          9 |        138 |
+| YAML       |          4 |         55 |         73 |         17 |        145 |
+| HTML       |          1 |         19 |         15 |          5 |         39 |
+| Properties |          2 |          8 |          0 |          1 |          9 |
+| Markdown   |          1 |          1 |          0 |          2 |          3 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                    | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                       |        167 |     10,391 |        802 |      1,578 |     12,771 |
+| . (Files)                                                                                                               |          5 |         56 |         73 |         19 |        148 |
+| android                                                                                                                 |         10 |         85 |         52 |         10 |        147 |
+| android (Files)                                                                                                         |          1 |          3 |          0 |          0 |          3 |
+| android\app                                                                                                             |          8 |         77 |         52 |          9 |        138 |
+| android\app\src                                                                                                         |          8 |         77 |         52 |          9 |        138 |
+| android\app\src\debug                                                                                                   |          1 |          3 |          4 |          1 |          8 |
+| android\app\src\main                                                                                                    |          6 |         71 |         44 |          7 |        122 |
+| android\app\src\main (Files)                                                                                            |          1 |         38 |         11 |          1 |         50 |
+| android\app\src\main\res                                                                                                |          5 |         33 |         33 |          6 |         72 |
+| android\app\src\main\res\drawable                                                                                       |          1 |          4 |          7 |          2 |         13 |
+| android\app\src\main\res\drawable-v21                                                                                   |          1 |          4 |          7 |          2 |         13 |
+| android\app\src\main\res\values                                                                                         |          1 |          9 |          9 |          1 |         19 |
+| android\app\src\main\res\values-night                                                                                   |          1 |          9 |          9 |          1 |         19 |
+| android\app\src\main\res\xml                                                                                            |          1 |          7 |          1 |          0 |          8 |
+| android\app\src\profile                                                                                                 |          1 |          3 |          4 |          1 |          8 |
+| android\gradle                                                                                                          |          1 |          5 |          0 |          1 |          6 |
+| android\gradle\wrapper                                                                                                  |          1 |          5 |          0 |          1 |          6 |
+| lib                                                                                                                     |        149 |     10,179 |        652 |      1,534 |     12,365 |
+| lib (Files)                                                                                                             |          2 |         79 |          1 |         10 |         90 |
+| lib\core                                                                                                                |         27 |      1,428 |        113 |        222 |      1,763 |
+| lib\core\di                                                                                                             |          1 |         45 |         10 |         11 |         66 |
+| lib\core\helpers                                                                                                        |          5 |         99 |         29 |         25 |        153 |
+| lib\core\networking                                                                                                     |          9 |        772 |         73 |        140 |        985 |
+| lib\core\routing                                                                                                        |          2 |         88 |          0 |          7 |         95 |
+| lib\core\theming                                                                                                        |          4 |        112 |          0 |         14 |        126 |
+| lib\core\widgets                                                                                                        |          6 |        312 |          1 |         25 |        338 |
+| lib\features                                                                                                            |        114 |      8,239 |        480 |      1,228 |      9,947 |
+| lib\features\Navigation                                                                                                 |          3 |         66 |          2 |         15 |         83 |
+| lib\features\Navigation\logic                                                                                           |          2 |         16 |          0 |          7 |         23 |
+| lib\features\Navigation\logic\cubit                                                                                     |          2 |         16 |          0 |          7 |         23 |
+| lib\features\Navigation\ui                                                                                              |          1 |         50 |          2 |          8 |         60 |
+| lib\features\auth                                                                                                       |         29 |      1,975 |        105 |        294 |      2,374 |
+| lib\features\auth\login                                                                                                 |         16 |      1,003 |         52 |        155 |      1,210 |
+| lib\features\auth\login\data                                                                                            |          5 |         75 |          8 |         25 |        108 |
+| lib\features\auth\login\data\models                                                                                     |          4 |         55 |          8 |         22 |         85 |
+| lib\features\auth\login\data\repos                                                                                      |          1 |         20 |          0 |          3 |         23 |
+| lib\features\auth\login\logic                                                                                           |          3 |        574 |         42 |         92 |        708 |
+| lib\features\auth\login\logic\cubit                                                                                     |          3 |        574 |         42 |         92 |        708 |
+| lib\features\auth\login\ui                                                                                              |          8 |        354 |          2 |         38 |        394 |
+| lib\features\auth\login\ui (Files)                                                                                      |          2 |        130 |          0 |         10 |        140 |
+| lib\features\auth\login\ui\widgets                                                                                      |          6 |        224 |          2 |         28 |        254 |
+| lib\features\auth\register                                                                                              |         13 |        972 |         53 |        139 |      1,164 |
+| lib\features\auth\register\data                                                                                         |          5 |         93 |          8 |         23 |        124 |
+| lib\features\auth\register\data\models                                                                                  |          4 |         73 |          8 |         20 |        101 |
+| lib\features\auth\register\data\repos                                                                                   |          1 |         20 |          0 |          3 |         23 |
+| lib\features\auth\register\logic                                                                                        |          3 |        561 |         42 |         88 |        691 |
+| lib\features\auth\register\logic\cubit                                                                                  |          3 |        561 |         42 |         88 |        691 |
+| lib\features\auth\register\ui                                                                                           |          5 |        318 |          3 |         28 |        349 |
+| lib\features\auth\register\ui (Files)                                                                                   |          2 |        101 |          1 |         13 |        115 |
+| lib\features\auth\register\ui\widgets                                                                                   |          3 |        217 |          2 |         15 |        234 |
+| lib\features\formations                                                                                                 |         19 |      1,695 |        112 |        239 |      2,046 |
+| lib\features\formations\My formations                                                                                   |          8 |        775 |         60 |        112 |        947 |
+| lib\features\formations\My formations\data                                                                              |          3 |         40 |          4 |         15 |         59 |
+| lib\features\formations\My formations\data\models                                                                       |          2 |         24 |          4 |         11 |         39 |
+| lib\features\formations\My formations\data\repo                                                                         |          1 |         16 |          0 |          4 |         20 |
+| lib\features\formations\My formations\logic                                                                             |          3 |        591 |         43 |         89 |        723 |
+| lib\features\formations\My formations\logic\cubit                                                                       |          3 |        591 |         43 |         89 |        723 |
+| lib\features\formations\My formations\ui                                                                                |          2 |        144 |         13 |          8 |        165 |
+| lib\features\formations\My formations\ui (Files)                                                                        |          1 |         67 |         12 |          4 |         83 |
+| lib\features\formations\My formations\ui\widgets                                                                        |          1 |         77 |          1 |          4 |         82 |
+| lib\features\formations\create formation                                                                                |         11 |        920 |         52 |        127 |      1,099 |
+| lib\features\formations\create formation\data                                                                           |          5 |        145 |          8 |         27 |        180 |
+| lib\features\formations\create formation\data\models                                                                    |          4 |        125 |          8 |         23 |        156 |
+| lib\features\formations\create formation\data\repos                                                                     |          1 |         20 |          0 |          4 |         24 |
+| lib\features\formations\create formation\logic                                                                          |          3 |        597 |         42 |         89 |        728 |
+| lib\features\formations\create formation\logic\cubit                                                                    |          3 |        597 |         42 |         89 |        728 |
+| lib\features\formations\create formation\ui                                                                             |          3 |        178 |          2 |         11 |        191 |
+| lib\features\formations\create formation\ui (Files)                                                                     |          1 |         59 |          0 |          5 |         64 |
+| lib\features\formations\create formation\ui\widgets                                                                     |          2 |        119 |          2 |          6 |        127 |
+| lib\features\home                                                                                                       |          3 |        121 |          0 |         16 |        137 |
+| lib\features\lessons                                                                                                    |         11 |        900 |         52 |        124 |      1,076 |
+| lib\features\lessons\create lesson                                                                                      |         11 |        900 |         52 |        124 |      1,076 |
+| lib\features\lessons\create lesson\data                                                                                 |          5 |        125 |          8 |         21 |        154 |
+| lib\features\lessons\create lesson\data\models                                                                          |          4 |        105 |          8 |         18 |        131 |
+| lib\features\lessons\create lesson\data\repos                                                                           |          1 |         20 |          0 |          3 |         23 |
+| lib\features\lessons\create lesson\logic                                                                                |          3 |        567 |         42 |         88 |        697 |
+| lib\features\lessons\create lesson\logic\cubit                                                                          |          3 |        567 |         42 |         88 |        697 |
+| lib\features\lessons\create lesson\ui                                                                                   |          3 |        208 |          2 |         15 |        225 |
+| lib\features\lessons\create lesson\ui (Files)                                                                           |          1 |         62 |          0 |          6 |         68 |
+| lib\features\lessons\create lesson\ui\widgets                                                                           |          2 |        146 |          2 |          9 |        157 |
+| lib\features\levels                                                                                                     |         19 |      1,679 |         99 |        235 |      2,013 |
+| lib\features\levels\My levels                                                                                           |          8 |        883 |         47 |        109 |      1,039 |
+| lib\features\levels\My levels\data                                                                                      |          1 |         16 |          0 |          4 |         20 |
+| lib\features\levels\My levels\data\repos                                                                                |          1 |         16 |          0 |          4 |         20 |
+| lib\features\levels\My levels\logic                                                                                     |          3 |        577 |         43 |         90 |        710 |
+| lib\features\levels\My levels\logic\cubit                                                                               |          3 |        577 |         43 |         90 |        710 |
+| lib\features\levels\My levels\ui                                                                                        |          4 |        290 |          4 |         15 |        309 |
+| lib\features\levels\My levels\ui (Files)                                                                                |          2 |        157 |          3 |          8 |        168 |
+| lib\features\levels\My levels\ui\widgets                                                                                |          2 |        133 |          1 |          7 |        141 |
+| lib\features\levels\create level                                                                                        |         11 |        796 |         52 |        126 |        974 |
+| lib\features\levels\create level\data                                                                                   |          5 |         85 |          8 |         24 |        117 |
+| lib\features\levels\create level\data\models                                                                            |          4 |         65 |          8 |         19 |         92 |
+| lib\features\levels\create level\data\repos                                                                             |          1 |         20 |          0 |          5 |         25 |
+| lib\features\levels\create level\logic                                                                                  |          3 |        558 |         42 |         88 |        688 |
+| lib\features\levels\create level\logic\cubit                                                                            |          3 |        558 |         42 |         88 |        688 |
+| lib\features\levels\create level\ui                                                                                     |          3 |        153 |          2 |         14 |        169 |
+| lib\features\levels\create level\ui (Files)                                                                             |          1 |         62 |          0 |          6 |         68 |
+| lib\features\levels\create level\ui\widgets                                                                             |          2 |         91 |          2 |          8 |        101 |
+| lib\features\onboarding                                                                                                 |          1 |          8 |          0 |          2 |         10 |
+| lib\features\profile                                                                                                    |          8 |        814 |         50 |        118 |        982 |
+| lib\features\profile (Files)                                                                                            |          1 |        172 |          3 |          8 |        183 |
+| lib\features\profile\data                                                                                               |          3 |         65 |          4 |         16 |         85 |
+| lib\features\profile\data\models                                                                                        |          2 |         49 |          4 |         11 |         64 |
+| lib\features\profile\data\repo                                                                                          |          1 |         16 |          0 |          5 |         21 |
+| lib\features\profile\logic                                                                                              |          3 |        550 |         43 |         90 |        683 |
+| lib\features\profile\logic\cubit                                                                                        |          3 |        550 |         43 |         90 |        683 |
+| lib\features\profile\presentation                                                                                       |          1 |         27 |          0 |          4 |         31 |
+| lib\features\quiz                                                                                                       |         20 |        973 |         60 |        183 |      1,216 |
+| lib\features\quiz\add quiz questions                                                                                    |          9 |        171 |          8 |         45 |        224 |
+| lib\features\quiz\add quiz questions\data                                                                               |          5 |        150 |          8 |         36 |        194 |
+| lib\features\quiz\add quiz questions\data\models                                                                        |          4 |        130 |          8 |         33 |        171 |
+| lib\features\quiz\add quiz questions\data\repo                                                                          |          1 |         20 |          0 |          3 |         23 |
+| lib\features\quiz\add quiz questions\logic                                                                              |          2 |         12 |          0 |          5 |         17 |
+| lib\features\quiz\add quiz questions\logic\cubit                                                                        |          2 |         12 |          0 |          5 |         17 |
+| lib\features\quiz\add quiz questions\ui                                                                                 |          2 |          9 |          0 |          4 |         13 |
+| lib\features\quiz\add quiz questions\ui (Files)                                                                         |          1 |          9 |          0 |          3 |         12 |
+| lib\features\quiz\add quiz questions\ui\widgets                                                                         |          1 |          0 |          0 |          1 |          1 |
+| lib\features\quiz\create quiz                                                                                           |         11 |        802 |         52 |        138 |        992 |
+| lib\features\quiz\create quiz\data                                                                                      |          5 |        103 |          8 |         31 |        142 |
+| lib\features\quiz\create quiz\data\models                                                                               |          4 |         83 |          8 |         27 |        118 |
+| lib\features\quiz\create quiz\data\repos                                                                                |          1 |         20 |          0 |          4 |         24 |
+| lib\features\quiz\create quiz\logic                                                                                     |          3 |        556 |         42 |         90 |        688 |
+| lib\features\quiz\create quiz\logic\cubit                                                                               |          3 |        556 |         42 |         90 |        688 |
+| lib\features\quiz\create quiz\ui                                                                                        |          3 |        143 |          2 |         17 |        162 |
+| lib\features\quiz\create quiz\ui (Files)                                                                                |          1 |         62 |          0 |          6 |         68 |
+| lib\features\quiz\create quiz\ui\widgets                                                                                |          2 |         81 |          2 |         11 |         94 |
+| lib\features\search                                                                                                     |          1 |          8 |          0 |          2 |         10 |
+| lib\generated                                                                                                           |          4 |        340 |         58 |         59 |        457 |
+| lib\generated (Files)                                                                                                   |          1 |        222 |         28 |         35 |        285 |
+| lib\generated\intl                                                                                                      |          3 |        118 |         30 |         24 |        172 |
+| lib\l10n                                                                                                                |          2 |         93 |          0 |         15 |        108 |
+| test                                                                                                                    |          1 |         17 |         10 |          9 |         36 |
+| web                                                                                                                     |          2 |         54 |         15 |          6 |         75 |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\EK\Desktop\untitled2\README.md                                                                                 | Markdown   |          1 |          0 |          2 |          3 |
+| c:\Users\EK\Desktop\untitled2\analysis_options.yaml                                                                     | YAML       |          3 |         22 |          4 |         29 |
+| c:\Users\EK\Desktop\untitled2\android\app\src\debug\AndroidManifest.xml                                                 | XML        |          3 |          4 |          1 |          8 |
+| c:\Users\EK\Desktop\untitled2\android\app\src\main\AndroidManifest.xml                                                  | XML        |         38 |         11 |          1 |         50 |
+| c:\Users\EK\Desktop\untitled2\android\app\src\main\res\drawable-v21\launch_background.xml                               | XML        |          4 |          7 |          2 |         13 |
+| c:\Users\EK\Desktop\untitled2\android\app\src\main\res\drawable\launch_background.xml                                   | XML        |          4 |          7 |          2 |         13 |
+| c:\Users\EK\Desktop\untitled2\android\app\src\main\res\values-night\styles.xml                                          | XML        |          9 |          9 |          1 |         19 |
+| c:\Users\EK\Desktop\untitled2\android\app\src\main\res\values\styles.xml                                                | XML        |          9 |          9 |          1 |         19 |
+| c:\Users\EK\Desktop\untitled2\android\app\src\main\res\xml\network_security_config.xml                                  | XML        |          7 |          1 |          0 |          8 |
+| c:\Users\EK\Desktop\untitled2\android\app\src\profile\AndroidManifest.xml                                               | XML        |          3 |          4 |          1 |          8 |
+| c:\Users\EK\Desktop\untitled2\android\gradle.properties                                                                 | Properties |          3 |          0 |          0 |          3 |
+| c:\Users\EK\Desktop\untitled2\android\gradle\wrapper\gradle-wrapper.properties                                          | Properties |          5 |          0 |          1 |          6 |
+| c:\Users\EK\Desktop\untitled2\build.yaml                                                                                | YAML       |          7 |          0 |          1 |          8 |
+| c:\Users\EK\Desktop\untitled2\devtools_options.yaml                                                                     | YAML       |          3 |          0 |          1 |          4 |
+| c:\Users\EK\Desktop\untitled2\lib\core\di\dependency_injecton.dart                                                      | Dart       |         45 |         10 |         11 |         66 |
+| c:\Users\EK\Desktop\untitled2\lib\core\helpers\constants.dart                                                           | Dart       |          5 |          0 |          1 |          6 |
+| c:\Users\EK\Desktop\untitled2\lib\core\helpers\extensions.dart                                                          | Dart       |         16 |          0 |          6 |         22 |
+| c:\Users\EK\Desktop\untitled2\lib\core\helpers\helpers.dart                                                             | Dart       |          9 |          0 |          3 |         12 |
+| c:\Users\EK\Desktop\untitled2\lib\core\helpers\regex.dart                                                               | Dart       |         14 |          0 |          2 |         16 |
+| c:\Users\EK\Desktop\untitled2\lib\core\helpers\shared_preference.dart                                                   | Dart       |         55 |         29 |         13 |         97 |
+| c:\Users\EK\Desktop\untitled2\lib\core\networking\api_constants.dart                                                    | Dart       |         15 |          6 |         20 |         41 |
+| c:\Users\EK\Desktop\untitled2\lib\core\networking\api_error_handler.dart                                                | Dart       |         32 |          3 |          5 |         40 |
+| c:\Users\EK\Desktop\untitled2\lib\core\networking\api_error_model.dart                                                  | Dart       |         14 |         12 |          9 |         35 |
+| c:\Users\EK\Desktop\untitled2\lib\core\networking\api_error_model.g.dart                                                | Dart       |          8 |          4 |          5 |         17 |
+| c:\Users\EK\Desktop\untitled2\lib\core\networking\api_result.dart                                                       | Dart       |          8 |          0 |          3 |         11 |
+| c:\Users\EK\Desktop\untitled2\lib\core\networking\api_result.freezed.dart                                               | Dart       |        281 |         32 |         48 |        361 |
+| c:\Users\EK\Desktop\untitled2\lib\core\networking\api_service.dart                                                      | Dart       |         56 |          7 |         13 |         76 |
+| c:\Users\EK\Desktop\untitled2\lib\core\networking\api_service.g.dart                                                    | Dart       |        322 |          5 |         23 |        350 |
+| c:\Users\EK\Desktop\untitled2\lib\core\networking\dio_factory.dart                                                      | Dart       |         36 |          4 |         14 |         54 |
+| c:\Users\EK\Desktop\untitled2\lib\core\routing\app_router.dart                                                          | Dart       |         75 |          0 |          3 |         78 |
+| c:\Users\EK\Desktop\untitled2\lib\core\routing\routes.dart                                                              | Dart       |         13 |          0 |          4 |         17 |
+| c:\Users\EK\Desktop\untitled2\lib\core\theming\colors.dart                                                              | Dart       |         13 |          0 |          3 |         16 |
+| c:\Users\EK\Desktop\untitled2\lib\core\theming\font_weights.dart                                                        | Dart       |         11 |          0 |          1 |         12 |
+| c:\Users\EK\Desktop\untitled2\lib\core\theming\images.dart                                                              | Dart       |          5 |          0 |          4 |          9 |
+| c:\Users\EK\Desktop\untitled2\lib\core\theming\styles.dart                                                              | Dart       |         83 |          0 |          6 |         89 |
+| c:\Users\EK\Desktop\untitled2\lib\core\widgets\app_bar.dart                                                             | Dart       |         37 |          0 |          4 |         41 |
+| c:\Users\EK\Desktop\untitled2\lib\core\widgets\custom_text_field.dart                                                   | Dart       |         47 |          1 |          4 |         52 |
+| c:\Users\EK\Desktop\untitled2\lib\core\widgets\home_widget.dart                                                         | Dart       |         80 |          0 |          4 |         84 |
+| c:\Users\EK\Desktop\untitled2\lib\core\widgets\lesson_card.dart                                                         | Dart       |         64 |          0 |          5 |         69 |
+| c:\Users\EK\Desktop\untitled2\lib\core\widgets\primary_button.dart                                                      | Dart       |         35 |          0 |          3 |         38 |
+| c:\Users\EK\Desktop\untitled2\lib\core\widgets\search_bar.dart                                                          | Dart       |         49 |          0 |          5 |         54 |
+| c:\Users\EK\Desktop\untitled2\lib\educational_app.dart                                                                  | Dart       |         52 |          1 |          4 |         57 |
+| c:\Users\EK\Desktop\untitled2\lib\features\Navigation\logic\cubit\navigation_cubit.dart                                 | Dart       |         10 |          0 |          4 |         14 |
+| c:\Users\EK\Desktop\untitled2\lib\features\Navigation\logic\cubit\navigation_state.dart                                 | Dart       |          6 |          0 |          3 |          9 |
+| c:\Users\EK\Desktop\untitled2\lib\features\Navigation\ui\navigation.dart                                                | Dart       |         50 |          2 |          8 |         60 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\login\data\models\login_request_body.dart                               | Dart       |          9 |          0 |          5 |         14 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\login\data\models\login_request_body.g.dart                             | Dart       |          8 |          4 |          5 |         17 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\login\data\models\login_response.dart                                   | Dart       |         21 |          0 |          7 |         28 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\login\data\models\login_response.g.dart                                 | Dart       |         17 |          4 |          5 |         26 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\login\data\repos\login_repo.dart                                        | Dart       |         20 |          0 |          3 |         23 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\login\logic\cubit\login_cubit.dart                                      | Dart       |         49 |          0 |         12 |         61 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\login\logic\cubit\login_state.dart                                      | Dart       |         10 |          0 |          2 |         12 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\login\logic\cubit\login_state.freezed.dart                              | Dart       |        515 |         42 |         78 |        635 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\login\ui\forgot_password.dart                                           | Dart       |         57 |          0 |          3 |         60 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\login\ui\login_screen.dart                                              | Dart       |         73 |          0 |          7 |         80 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\login\ui\widgets\dont_have_account.dart                                 | Dart       |         32 |          0 |          3 |         35 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\login\ui\widgets\email_and_password_form.dart                           | Dart       |         54 |          0 |          8 |         62 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\login\ui\widgets\login_bloc_listener.dart                               | Dart       |         43 |          2 |          4 |         49 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\login\ui\widgets\skip_auth.dart                                         | Dart       |         23 |          0 |          3 |         26 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\login\ui\widgets\terms_amd_conditions_widget.dart                       | Dart       |         42 |          0 |          3 |         45 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\login\ui\widgets\terms_and_conditions_screen.dart                       | Dart       |         30 |          0 |          7 |         37 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\register\data\models\register_request_body.dart                         | Dart       |         29 |          0 |          4 |         33 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\register\data\models\register_request_body.g.dart                       | Dart       |         24 |          4 |          5 |         33 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\register\data\models\register_response.dart                             | Dart       |         12 |          0 |          6 |         18 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\register\data\models\register_response.g.dart                           | Dart       |          8 |          4 |          5 |         17 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\register\data\repos\register_repo.dart                                  | Dart       |         20 |          0 |          3 |         23 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\register\logic\cubit\register_cubit.dart                                | Dart       |         37 |          0 |          6 |         43 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\register\logic\cubit\register_state.dart                                | Dart       |         10 |          0 |          4 |         14 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\register\logic\cubit\register_state.freezed.dart                        | Dart       |        514 |         42 |         78 |        634 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\register\ui\fill_profile.dart                                           | Dart       |         37 |          0 |          5 |         42 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\register\ui\register_screen.dart                                        | Dart       |         64 |          1 |          8 |         73 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\register\ui\widgets\fill_profile_form.dart                              | Dart       |         65 |          0 |          5 |         70 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\register\ui\widgets\register_bloc_listener.dart                         | Dart       |         43 |          2 |          4 |         49 |
+| c:\Users\EK\Desktop\untitled2\lib\features\auth\register\ui\widgets\register_form.dart                                  | Dart       |        109 |          0 |          6 |        115 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\My formations\data\models\my_formations_response.dart             | Dart       |         13 |          0 |          6 |         19 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\My formations\data\models\my_formations_response.g.dart           | Dart       |         11 |          4 |          5 |         20 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\My formations\data\repo\my_formation_repo.dart                    | Dart       |         16 |          0 |          4 |         20 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\My formations\logic\cubit\my_formation_cubit.dart                 | Dart       |         19 |          0 |          5 |         24 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\My formations\logic\cubit\my_formation_state.dart                 | Dart       |         11 |          0 |          6 |         17 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\My formations\logic\cubit\my_formation_state.freezed.dart         | Dart       |        561 |         43 |         78 |        682 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\My formations\ui\my_formations.dart                               | Dart       |         67 |         12 |          4 |         83 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\My formations\ui\widgets\my_formations_item.dart                  | Dart       |         77 |          1 |          4 |         82 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\data\models\create_formation_request_body.dart   | Dart       |         19 |          0 |          4 |         23 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\data\models\create_formation_request_body.g.dart | Dart       |         17 |          4 |          5 |         26 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\data\models\create_formation_response.dart       | Dart       |         41 |          0 |          7 |         48 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\data\models\create_formation_response.g.dart     | Dart       |         48 |          4 |          7 |         59 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\data\repos\create_formation_repo.dart            | Dart       |         20 |          0 |          4 |         24 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\logic\cubit\create_formation_cubit.dart          | Dart       |         29 |          0 |          7 |         36 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\logic\cubit\create_formation_state.dart          | Dart       |         10 |          0 |          4 |         14 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\logic\cubit\create_formation_state.freezed.dart  | Dart       |        558 |         42 |         78 |        678 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\ui\create_formation.dart                         | Dart       |         59 |          0 |          5 |         64 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\ui\widgets\create_formation_bloc_listener.dart   | Dart       |         39 |          2 |          3 |         44 |
+| c:\Users\EK\Desktop\untitled2\lib\features\formations\create formation\ui\widgets\create_formation_form.dart            | Dart       |         80 |          0 |          3 |         83 |
+| c:\Users\EK\Desktop\untitled2\lib\features\home\homepage.dart                                                           | Dart       |         37 |          0 |          4 |         41 |
+| c:\Users\EK\Desktop\untitled2\lib\features\home\video_lesson.dart                                                       | Dart       |         47 |          0 |          3 |         50 |
+| c:\Users\EK\Desktop\untitled2\lib\features\home\video_player_view.dart                                                  | Dart       |         37 |          0 |          9 |         46 |
+| c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\data\models\create_lesson_request_body.dart            | Dart       |         26 |          0 |          4 |         30 |
+| c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\data\models\create_lesson_request_body.g.dart          | Dart       |         21 |          4 |          5 |         30 |
+| c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\data\models\create_lesson_response.dart                | Dart       |         33 |          0 |          4 |         37 |
+| c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\data\models\create_lesson_response.g.dart              | Dart       |         25 |          4 |          5 |         34 |
+| c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\data\repos\create_lesson_repo.dart                     | Dart       |         20 |          0 |          3 |         23 |
+| c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\logic\cubit\create_lesson_cubit.dart                   | Dart       |         33 |          0 |          7 |         40 |
+| c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\logic\cubit\create_lesson_state.dart                   | Dart       |         10 |          0 |          3 |         13 |
+| c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\logic\cubit\create_lesson_state.freezed.dart           | Dart       |        524 |         42 |         78 |        644 |
+| c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\ui\create_lesson.dart                                  | Dart       |         62 |          0 |          6 |         68 |
+| c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\ui\widgets\create_lesson_bloc_listener.dart            | Dart       |         39 |          2 |          4 |         45 |
+| c:\Users\EK\Desktop\untitled2\lib\features\lessons\create lesson\ui\widgets\create_lesson_form.dart                     | Dart       |        107 |          0 |          5 |        112 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\My levels\data\repos\my_level_repo.dart                               | Dart       |         16 |          0 |          4 |         20 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\My levels\logic\cubit\my_levels_cubit.dart                            | Dart       |         19 |          0 |          6 |         25 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\My levels\logic\cubit\my_levels_state.dart                            | Dart       |         11 |          0 |          6 |         17 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\My levels\logic\cubit\my_levels_state.freezed.dart                    | Dart       |        547 |         43 |         78 |        668 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\My levels\ui\decrire_level.dart                                       | Dart       |         70 |          3 |          2 |         75 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\My levels\ui\my_levels.dart                                           | Dart       |         87 |          0 |          6 |         93 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\My levels\ui\widgets\my_levels_item.dart                              | Dart       |         76 |          1 |          5 |         82 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\My levels\ui\widgets\upload_container.dart                            | Dart       |         57 |          0 |          2 |         59 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\data\models\create_level_request_body.dart               | Dart       |         15 |          0 |          4 |         19 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\data\models\create_level_request_body.g.dart             | Dart       |         15 |          4 |          5 |         24 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\data\models\create_level_response.dart                   | Dart       |         19 |          0 |          5 |         24 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\data\models\create_level_response.g.dart                 | Dart       |         16 |          4 |          5 |         25 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\data\repos\create_level_repo.dart                        | Dart       |         20 |          0 |          5 |         25 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\logic\cubit\create_level_cubit.dart                      | Dart       |         26 |          0 |          6 |         32 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\logic\cubit\create_level_state.dart                      | Dart       |         10 |          0 |          4 |         14 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\logic\cubit\create_level_state.freezed.dart              | Dart       |        522 |         42 |         78 |        642 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\ui\create_level.dart                                     | Dart       |         62 |          0 |          6 |         68 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\ui\widgets\create_level_bloc_listener.dart               | Dart       |         39 |          2 |          3 |         44 |
+| c:\Users\EK\Desktop\untitled2\lib\features\levels\create level\ui\widgets\create_level_form.dart                        | Dart       |         52 |          0 |          5 |         57 |
+| c:\Users\EK\Desktop\untitled2\lib\features\onboarding\onboarding_screen.dart                                            | Dart       |          8 |          0 |          2 |         10 |
+| c:\Users\EK\Desktop\untitled2\lib\features\profile\data\models\profile_response.dart                                    | Dart       |         28 |          0 |          6 |         34 |
+| c:\Users\EK\Desktop\untitled2\lib\features\profile\data\models\profile_response.g.dart                                  | Dart       |         21 |          4 |          5 |         30 |
+| c:\Users\EK\Desktop\untitled2\lib\features\profile\data\repo\profile_repo.dart                                          | Dart       |         16 |          0 |          5 |         21 |
+| c:\Users\EK\Desktop\untitled2\lib\features\profile\logic\cubit\profile_cubit.dart                                       | Dart       |         19 |          0 |          6 |         25 |
+| c:\Users\EK\Desktop\untitled2\lib\features\profile\logic\cubit\profile_state.dart                                       | Dart       |         11 |          1 |          6 |         18 |
+| c:\Users\EK\Desktop\untitled2\lib\features\profile\logic\cubit\profile_state.freezed.dart                               | Dart       |        520 |         42 |         78 |        640 |
+| c:\Users\EK\Desktop\untitled2\lib\features\profile\presentation\logout.dart                                             | Dart       |         27 |          0 |          4 |         31 |
+| c:\Users\EK\Desktop\untitled2\lib\features\profile\profile.dart                                                         | Dart       |        172 |          3 |          8 |        183 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\add quiz questions\data\models\add_quiz_questions_request_body.dart     | Dart       |         29 |          0 |         10 |         39 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\add quiz questions\data\models\add_quiz_questions_request_body.g.dart   | Dart       |         33 |          4 |          7 |         44 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\add quiz questions\data\models\add_quiz_questions_response.dart         | Dart       |         36 |          0 |          9 |         45 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\add quiz questions\data\models\add_quiz_questions_response.g.dart       | Dart       |         32 |          4 |          7 |         43 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\add quiz questions\data\repo\add_quiz_questions_repo.dart               | Dart       |         20 |          0 |          3 |         23 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\add quiz questions\logic\cubit\add_quiz_questions_cubit.dart            | Dart       |          7 |          0 |          3 |         10 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\add quiz questions\logic\cubit\add_quiz_questions_state.dart            | Dart       |          5 |          0 |          2 |          7 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\add quiz questions\ui\add_quiz_questions.dart                           | Dart       |          9 |          0 |          3 |         12 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\add quiz questions\ui\widgets\add_quiz_questions_and_choices_form.dart  | Dart       |          0 |          0 |          1 |          1 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\data\models\create_quiz_request_body.dart                   | Dart       |         14 |          0 |          6 |         20 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\data\models\create_quiz_request_body.g.dart                 | Dart       |         10 |          4 |          5 |         19 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\data\models\create_quiz_response.dart                       | Dart       |         34 |          0 |          9 |         43 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\data\models\create_quiz_response.g.dart                     | Dart       |         25 |          4 |          7 |         36 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\data\repos\create_quiz_repo.dart                            | Dart       |         20 |          0 |          4 |         24 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\logic\cubit\create_quiz_cubit.dart                          | Dart       |         24 |          0 |          9 |         33 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\logic\cubit\create_quiz_state.dart                          | Dart       |         10 |          0 |          3 |         13 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\logic\cubit\create_quiz_state.freezed.dart                  | Dart       |        522 |         42 |         78 |        642 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\ui\create_quiz.dart                                         | Dart       |         62 |          0 |          6 |         68 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\ui\widgets\create_quiz_bloc_listener.dart                   | Dart       |         42 |          2 |          4 |         48 |
+| c:\Users\EK\Desktop\untitled2\lib\features\quiz\create quiz\ui\widgets\create_quiz_form.dart                            | Dart       |         39 |          0 |          7 |         46 |
+| c:\Users\EK\Desktop\untitled2\lib\features\search\search_screen.dart                                                    | Dart       |          8 |          0 |          2 |         10 |
+| c:\Users\EK\Desktop\untitled2\lib\generated\intl\messages_all.dart                                                      | Dart       |         53 |         10 |         10 |         73 |
+| c:\Users\EK\Desktop\untitled2\lib\generated\intl\messages_ar.dart                                                       | Dart       |         21 |         10 |          7 |         38 |
+| c:\Users\EK\Desktop\untitled2\lib\generated\intl\messages_en.dart                                                       | Dart       |         44 |         10 |          7 |         61 |
+| c:\Users\EK\Desktop\untitled2\lib\generated\l10n.dart                                                                   | Dart       |        222 |         28 |         35 |        285 |
+| c:\Users\EK\Desktop\untitled2\lib\l10n\intl_ar.arb                                                                      | JSON       |         10 |          0 |          2 |         12 |
+| c:\Users\EK\Desktop\untitled2\lib\l10n\intl_en.arb                                                                      | JSON       |         83 |          0 |         13 |         96 |
+| c:\Users\EK\Desktop\untitled2\lib\main.dart                                                                             | Dart       |         27 |          0 |          6 |         33 |
+| c:\Users\EK\Desktop\untitled2\pubspec.yaml                                                                              | YAML       |         42 |         51 |         11 |        104 |
+| c:\Users\EK\Desktop\untitled2\test\widget_test.dart                                                                     | Dart       |         17 |         10 |          9 |         36 |
+| c:\Users\EK\Desktop\untitled2\web\index.html                                                                            | HTML       |         19 |         15 |          5 |         39 |
+| c:\Users\EK\Desktop\untitled2\web\manifest.json                                                                         | JSON       |         35 |          0 |          1 |         36 |
+| Total                                                                                                                   |            |     10,391 |        802 |      1,578 |     12,771 |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

@@ -16,7 +16,7 @@ CreateFormationResponse _$CreateFormationResponseFromJson(
   instractorId: (json['formateur'] as num).toInt(),
   keywordsIdLists:
       (json['mote_cles'] as List<dynamic>?)
-          ?.map((e) => (e as num).toInt())
+          ?.map((e) => KeyWordModel.fromJson(e as Map<String, dynamic>))
           .toList(),
   requirmentsList:
       (json['prerequis'] as List<dynamic>?)
@@ -56,3 +56,16 @@ Map<String, dynamic> _$FormationRequirmentsToJson(
   'description': instance.requirmentDescription,
   'ordre': instance.requirmentOrdre,
 };
+
+KeyWordModel _$KeyWordModelFromJson(Map<String, dynamic> json) => KeyWordModel(
+  (json['id_mote_cles'] as num?)?.toInt(),
+  json['type'] as String?,
+  json['description'] as String?,
+);
+
+Map<String, dynamic> _$KeyWordModelToJson(KeyWordModel instance) =>
+    <String, dynamic>{
+      'id_mote_cles': instance.keywordId,
+      'type': instance.type,
+      'description': instance.description,
+    };
