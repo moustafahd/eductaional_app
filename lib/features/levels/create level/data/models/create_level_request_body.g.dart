@@ -11,6 +11,7 @@ CreateLevelRequestBody _$CreateLevelRequestBodyFromJson(
 ) => CreateLevelRequestBody(
   description: json['description'] as String,
   ordre: (json['ordre'] as num).toInt(),
+  formationId: (json['formation'] as num).toInt(),
 );
 
 Map<String, dynamic> _$CreateLevelRequestBodyToJson(
@@ -18,4 +19,5 @@ Map<String, dynamic> _$CreateLevelRequestBodyToJson(
 ) => <String, dynamic>{
   'description': instance.description,
   'ordre': instance.ordre,
+  'formation': instance.formationId,
 };

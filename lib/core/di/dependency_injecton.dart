@@ -10,10 +10,19 @@ import 'package:untitled2/features/formations/My%20formations/data/repo/my_forma
 import 'package:untitled2/features/formations/My%20formations/logic/cubit/my_formation_cubit.dart';
 import 'package:untitled2/features/formations/create%20formation/data/repos/create_formation_repo.dart';
 import 'package:untitled2/features/formations/create%20formation/logic/cubit/create_formation_cubit.dart';
+import 'package:untitled2/features/lessons/create%20lesson/data/repos/create_lesson_repo.dart';
+import 'package:untitled2/features/lessons/create%20lesson/logic/cubit/create_lesson_cubit.dart';
 import 'package:untitled2/features/levels/My%20levels/data/repos/my_level_repo.dart';
 import 'package:untitled2/features/levels/My%20levels/logic/cubit/my_levels_cubit.dart';
+import 'package:untitled2/features/levels/create%20level/logic/cubit/create_level_cubit.dart';
 import 'package:untitled2/features/profile/data/repo/profile_repo.dart';
 import 'package:untitled2/features/profile/logic/cubit/profile_cubit.dart';
+import 'package:untitled2/features/quiz/add%20quiz%20questions/data/repo/add_quiz_questions_repo.dart';
+import 'package:untitled2/features/quiz/add%20quiz%20questions/logic/cubit/add_quiz_questions_cubit.dart';
+import 'package:untitled2/features/quiz/create%20quiz/data/repos/create_quiz_repo.dart';
+import 'package:untitled2/features/quiz/create%20quiz/logic/cubit/create_quiz_cubit.dart';
+
+import '../../features/levels/create level/data/repos/create_level_repo.dart';
 
 final getIt = GetIt.instance;
 
@@ -44,4 +53,20 @@ Future<void> setupGetIt() async {
   // My levels
   getIt.registerLazySingleton<MyLevelRepo>(() => MyLevelRepo(getIt()));
   getIt.registerFactory<MyLevelCubit>(() => MyLevelCubit(getIt()));
+
+  // Create Level
+  getIt.registerLazySingleton<CreateLevelRepo>(() => CreateLevelRepo(getIt()));
+  getIt.registerFactory<CreateLevelCubit>(() => CreateLevelCubit(getIt()));
+
+  // Create Lesson
+  getIt.registerLazySingleton<CreateLessonRepo>(() => CreateLessonRepo(getIt()));
+  getIt.registerFactory<CreateLessonCubit>(() => CreateLessonCubit(getIt()));
+
+  // Create Quiz
+  getIt.registerLazySingleton<CreateQuizRepo>(() => CreateQuizRepo(getIt()));
+  getIt.registerFactory<CreateQuizCubit>(() => CreateQuizCubit(getIt()));
+
+  // Add Quiz Questions
+  getIt.registerLazySingleton<AddQuizQuestionsRepo>(() => AddQuizQuestionsRepo(getIt()));
+  getIt.registerFactory<AddQuizQuestionsCubit>(() => AddQuizQuestionsCubit(getIt()));
 }

@@ -20,6 +20,11 @@ class TextStyles {
     fontWeight: FontWeights.semiBold,
     color: ColorManager.black,
   );
+  static TextStyle font26BlackSemiBold = TextStyle(
+    fontSize: 26.sp,
+    fontWeight: FontWeights.semiBold,
+    color: ColorManager.black,
+  );
   static TextStyle font18BlackSemiBold = TextStyle(
     fontSize: 18.sp,
     fontWeight: FontWeights.semiBold,
@@ -50,6 +55,11 @@ class TextStyles {
     fontSize: 16.sp,
     fontWeight: FontWeights.medium,
     color: ColorManager.mainBlue,
+  );
+  static TextStyle font16Blue50OpacityMedium = TextStyle(
+    fontSize: 16.sp,
+    fontWeight: FontWeights.medium,
+    color: ColorManager.mainBlue5Opacity,
   );
   static TextStyle font14BlueMedium = TextStyle(
     fontSize: 14.sp,

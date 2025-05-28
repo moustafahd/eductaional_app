@@ -4,6 +4,7 @@ import 'package:untitled2/core/helpers/shared_preference.dart';
 import 'package:untitled2/core/networking/api_constants.dart';
 import 'package:untitled2/core/theming/colors.dart';
 import 'package:untitled2/core/theming/styles.dart';
+import 'package:untitled2/features/levels/My%20levels/ui/decrire_level.dart';
 import 'package:untitled2/features/levels/create%20level/data/models/create_level_response.dart';
 
 class MyLevelsItem extends StatelessWidget {
@@ -42,28 +43,33 @@ class MyLevelsItem extends StatelessWidget {
               style: TextStyles.font14BlackSemiBold,
               ),
           ),
+          
+          // horizontalSpace(10),
+          Flexible(
+            flex: 1,
+            child: IconButton(onPressed: (){ 
+              SharedPreferenceHelper.setData(ApiConstants.levelId, levelItem.levelId);
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => DecrireLevel(levelItem: levelItem,),
+                ),
+              );
+            }, 
+            icon: Icon(
+              Icons.edit_rounded,
+              color: ColorManager.mainBlue,
+              size: 20.r,
+            )
+            ),
+          ),
           Flexible(
             flex: 1,
             child: IconButton(onPressed: (){ 
             
             }, 
             icon: Icon(
-              Icons.add_box_outlined,
-              color: ColorManager.mainBlue,
-              size: 20.r,
-            )
-            ),
-          ),
-          // horizontalSpace(10),
-          Flexible(
-            flex: 1,
-            child: IconButton(onPressed: (){ 
-              SharedPreferenceHelper.setData(ApiConstants.levelId, levelItem.levelId);
-              
-            }, 
-            icon: Icon(
-              Icons.edit_rounded,
-              color: ColorManager.mainBlue,
+              Icons.delete_rounded,
+              color: ColorManager.red,
               size: 20.r,
             )
             ),
